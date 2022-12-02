@@ -1,0 +1,12 @@
+02.12.2022 17:20:40 | storage.go:29: init
+02.12.2022 17:36:05 | storage.go:29: init
+02.12.2022 17:36:22 | storage.go:29: init
+02.12.2022 17:36:39 | storage.go:29: init
+02.12.2022 17:36:46 | storage.go:29: init
+02.12.2022 17:37:26 | storage.go:29: init
+02.12.2022 17:37:31 | storage.go:29: init
+02.12.2022 17:37:26 | main.go:87: Добавлен новый город #id= 999
+02.12.2022 17:37:26 | main.go:115: Удален город #id= 606
+02.12.2022 17:37:26 | response.go:22: error: code: 400 msg:city not exist
+02.12.2022 17:37:26 | main.go:139: Обновлена информация по городу #id= 769
+02.12.2022 17:37:26 | response.go:22: error: code: 400 msg:city not exist
