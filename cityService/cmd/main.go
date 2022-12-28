@@ -1,9 +1,10 @@
 package main
 
 import (
-	cnsts "cityService/pkg/constants"
+	conf "cityService/config"
 	filt "cityService/pkg/filter"
 	glog "cityService/pkg/glog"
+	gs "cityService/pkg/gracefullShutdown"
 	rspn "cityService/pkg/response"
 	"cityService/pkg/storage"
 	"encoding/json"
@@ -17,13 +18,20 @@ var (
 	mux   *http.ServeMux
 	err   error
 	resp  rspn.Response
+
+	storageFileName = conf.GoDotEnvVariable("STORAGE_FILE_NAME")
+	hostPort        = conf.GoDotEnvVariable("HOST_PORT")
 )
 
 func init() {
 	log = glog.Init()
 
-	store, err = storage.Init(cnsts.STORAGE_FILE_NAME)
-	checkErr(err)
+	store, err = storage.Init(storageFileName)
+
+	f.Println("storage loaded:")
+	store.Print()
+
+	resp.CheckErr(err)
 
 	mux = http.NewServeMux()
 
@@ -31,6 +39,8 @@ func init() {
 }
 
 func main() {
+	gs.CheckInterrupt(store)
+
 	/****** handles ******/
 	mux.HandleFunc("/get_city_info", getCityInfo)
 	mux.HandleFunc("/add_new_city", addNewCity)
@@ -39,20 +49,21 @@ func main() {
 	mux.HandleFunc("/get_cities", getCities)
 
 	/*** start server ****/
-	http.ListenAndServe(cnsts.HOST_PORT, mux)
+	err := http.ListenAndServe(":"+hostPort, mux)
+	resp.CheckErr(err)
 }
 
 // получение информации о городе по его id;
 // curl -X GET -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":13}' "http://localhost:8080/get_city_info"
 // curl -X GET -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":606}' "http://localhost:8080/get_city_info"
 func getCityInfo(w http.ResponseWriter, r *http.Request) {
-	if !correctMeth(r.Method, "GET") {
+	if !resp.CorrectMeth(r.Method, "GET") {
 		return
 	}
 
 	var reqCity storage.City
 	err := reqCity.UnmarshalCity(&r.Body)
-	checkErr(err)
+	resp.CheckErr(err)
 
 	resp.Init(w)
 
@@ -69,16 +80,16 @@ func getCityInfo(w http.ResponseWriter, r *http.Request) {
 }
 
 // добавление новой записи в список городов;
-// curl -X PUT -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":999,"population":5,"foundation":2000,"name":"Симферополь","region":"Крым","district":"Южный"}' "http://localhost:8080/get_city_info"
+// curl -X PUT -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":999,"population":5,"foundation":2000,"name":"Симферополь","region":"Крым","district":"Южный"}' "http://localhost:8080/add_new_city"
 func addNewCity(w http.ResponseWriter, r *http.Request) {
-	if !correctMeth(r.Method, "PUT") {
+	if !resp.CorrectMeth(r.Method, "PUT") {
 		return
 	}
 	resp.Init(w)
 
 	var reqCity storage.City
 	err := reqCity.UnmarshalCity(&r.Body)
-	checkErr(err)
+	resp.CheckErr(err)
 
 	store.M[reqCity.Id] = &reqCity
 
@@ -91,14 +102,14 @@ func addNewCity(w http.ResponseWriter, r *http.Request) {
 // curl -X DELETE -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":999}' "http://localhost:8080/rem_city"
 // curl -X DELETE -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":606}' "http://localhost:8080/rem_city"
 func removeCity(w http.ResponseWriter, r *http.Request) {
-	if !correctMeth(r.Method, "DELETE") {
+	if !resp.CorrectMeth(r.Method, "DELETE") {
 		return
 	}
 	resp.Init(w)
 
 	var reqCity storage.City
 	err := reqCity.UnmarshalCity(&r.Body)
-	checkErr(err)
+	resp.CheckErr(err)
 
 	if _, ok := store.M[reqCity.Id]; !ok {
 		resp.Err("city not exist", http.StatusBadRequest)
@@ -115,14 +126,14 @@ func removeCity(w http.ResponseWriter, r *http.Request) {
 // обновление информации о численности населения города по указанному id;
 // curl -X POST -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":606,"population":5,"foundation":2000,"name":"Симферополь","region":"Крым","district":"Южный"}' "http://localhost:8080/upd_city"
 func updateCityInfo(w http.ResponseWriter, r *http.Request) {
-	if !correctMeth(r.Method, "POST") {
+	if !resp.CorrectMeth(r.Method, "POST") {
 		return
 	}
 	resp.Init(w)
 
 	var reqCity storage.City
 	err := reqCity.UnmarshalCity(&r.Body)
-	checkErr(err)
+	resp.CheckErr(err)
 
 	if _, ok := store.M[reqCity.Id]; !ok {
 		resp.Err("city not exist", http.StatusBadRequest)
@@ -143,13 +154,13 @@ func updateCityInfo(w http.ResponseWriter, r *http.Request) {
 func getCities(w http.ResponseWriter, r *http.Request) {
 	resp.Init(w)
 
-	if !correctMeth(r.Method, "GET") {
+	if !resp.CorrectMeth(r.Method, "GET") {
 		return
 	}
 
 	var reqFilter filt.FilterCity
 	err := reqFilter.UnmarshalFilt(&r.Body)
-	checkErr(err)
+	resp.CheckErr(err)
 
 	res := make([]string, 0, len(store.M)/4)
 	keys := store.GetSortedKeys()
@@ -169,7 +180,7 @@ func getCities(w http.ResponseWriter, r *http.Request) {
 			continue
 		}
 		cityInfo, err := json.Marshal(city)
-		checkErr(err)
+		resp.CheckErr(err)
 		res = append(res, string(cityInfo))
 	}
 
@@ -183,21 +194,3 @@ func getCities(w http.ResponseWriter, r *http.Request) {
 	resp.Res["res"] = res
 	resp.Send()
 }
-
-func correctMeth(in, exp string) bool {
-	if in != exp {
-		err := f.Sprintf("in %s hanlde income wrong method:%s", exp, in)
-		resp.Err(err, http.StatusMethodNotAllowed)
-		return false
-	}
-	return true
-}
-
-func checkErr(e error) {
-	if e != nil {
-		resp.Err(err.Error(), http.StatusInternalServerError)
-		log.Fatalln(e)
-	}
-}
-
-//Graceful Shutdown
