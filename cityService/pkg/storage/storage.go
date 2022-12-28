@@ -4,6 +4,7 @@ import (
 	"cityService/pkg/csv"
 	log "cityService/pkg/glog"
 	"encoding/json"
+	"fmt"
 	f "fmt"
 	"io"
 	"sort"
@@ -29,7 +30,7 @@ var (
 )
 
 func Init(dbfile string) (*Store, error) {
-	glog.Println("Init storage")
+	glog.Println("Инициализация хранилища")
 	s := Store{make(map[uint64]*City), dbfile}
 	data, err := csv.GetCSVdata(dbfile)
 	if err != nil {
@@ -42,8 +43,7 @@ func Init(dbfile string) (*Store, error) {
 }
 
 func (s *Store) Close() {
-	glog.Println("Catch close() command")
-	glog.Println("Prepare data to csv writer...")
+	glog.Println("Сохранение хранилища в базу данных")
 
 	data := s.prepareToWrite()
 
@@ -62,16 +62,18 @@ func (s *Store) GetSortedKeys() []uint64 {
 
 func (s *Store) prepareToWrite() [][]string {
 	data := make([][]string, 0, len(s.M))
-	for i, city := range s.M {
-		data[i] = []string{
+	for _, city := range s.M {
+		item := []string{
 			strconv.FormatUint(city.Id, 10),
-			strconv.FormatUint(city.Population, 10),
-			strconv.FormatUint(city.Foundation, 10),
 			city.Name,
 			city.Region,
 			city.District,
+			strconv.FormatUint(city.Population, 10),
+			strconv.FormatUint(city.Foundation, 10),
 		}
+		data = append(data, item)
 	}
+	fmt.Println(data)
 	return data
 }
 
@@ -103,7 +105,6 @@ func (c *City) UnmarshalCity(body *io.ReadCloser) error {
 }
 
 func (s *Store) Print() {
-	//log.Print("INIT STORAGE")
 	for _, v := range s.M {
 		f.Printf("%+v\n", v)
 	}
