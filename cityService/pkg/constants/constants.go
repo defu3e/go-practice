@@ -1,8 +1,0 @@
-package constants
-
-const (
-	STORAGE_FILE_NAME = "../db/cities.csv"
-	LOG_FILE_NAME     = "log.txt"
-	HOST_PORT         = ":8080"
-	HOST              = "http://localhost" + HOST_PORT
-)
