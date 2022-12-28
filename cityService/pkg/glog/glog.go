@@ -14,7 +14,8 @@ const (
 )
 
 type Logger struct {
-	Filename string
+	Filename   string
+	FileHandle *os.File
 	*log.Logger
 }
 
@@ -33,7 +34,8 @@ func createLogger(fname string) *Logger {
 	ts := time.Now().Format(YYYYMMDD + " " + HHMMSS24h)
 
 	return &Logger{
-		Filename: fname,
-		Logger:   log.New(file, ts+" | ", log.Lshortfile),
+		Filename:   fname,
+		FileHandle: file,
+		Logger:     log.New(file, ts+" | ", log.Lshortfile),
 	}
 }

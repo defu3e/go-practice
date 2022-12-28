@@ -15,7 +15,7 @@ func GetCSVdata(filePath string) ([][]string, error) {
 
 	rows, err := csv.NewReader(file).ReadAll()
 	if err != nil {
-		log.Println("Cannot read CSV file:", err)
+		log.Println("ошибка чтения файла:", err)
 		return [][]string{}, err
 	}
 
@@ -25,13 +25,13 @@ func GetCSVdata(filePath string) ([][]string, error) {
 func WriteDataToCSV(filePath string, data [][]string) {
 	file, err := os.Create(filePath)
 	if err != nil {
-		log.Println("Cannot create CSV file:", err)
+		log.Println("ошибка создания файла:", err)
 	}
 	defer file.Close()
 
 	writer := csv.NewWriter(file)
 	err = writer.WriteAll(data)
 	if err != nil {
-		log.Println("Cannot write to CSV file:", err)
+		log.Println("ошибка записи в файл:", err)
 	}
 }

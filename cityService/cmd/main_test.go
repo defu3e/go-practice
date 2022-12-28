@@ -2,10 +2,23 @@ package main
 
 import (
 	"bytes"
-	cnsts "cityService/pkg/constants"
+	conf "cityService/config"
 	"io"
 	"net/http"
 	"testing"
+)
+
+/**
+* WARNING!
+* This test writing for city_orig.csv file
+* Before test you should:
+* copy cityService/db/city_orig.csv to cityService/db/city.csv
+**/
+
+var (
+	host = conf.GoDotEnvVariable("HOST")
+	port = conf.GoDotEnvVariable("HOST_PORT")
+	URL  = host + ":" + port
 )
 
 func TestMain(t *testing.T) {
@@ -52,9 +65,9 @@ func TestMain(t *testing.T) {
 			name:            "correct delete city from db by id",
 			url:             "/rem_city",
 			inputMethod:     "DELETE",
-			inputData:       `{"id":606}`,
+			inputData:       `{"id":177}`,
 			expectedStatus:  200,
-			expectedMessage: `{"res":{"id":606}}`,
+			expectedMessage: `{"res":{"id":177}}`,
 		},
 		{
 			name:            "incorrect delete city from db by id (unexist id)",
@@ -102,9 +115,9 @@ func TestMain(t *testing.T) {
 
 	for _, test := range testCases {
 
-		//make request
+		// make request
 		var jsonStr = []byte(test.inputData)
-		url := cnsts.HOST + test.url
+		url := URL + test.url
 		req, err := http.NewRequest(test.inputMethod, url, bytes.NewBuffer(jsonStr))
 		if err != nil {
 			t.Errorf("got error on req: %s", err)
