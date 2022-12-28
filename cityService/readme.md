@@ -25,8 +25,11 @@
 
 #### USAGE
 go to cmd folder of project and run main.go:
+
 `$ go run main.go`
+
 
 Now you can work with API by sending requests to host (url by default in config/.env file)
 example of get info about city by id:
+
 `curl -X GET -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":13}' "http://localhost:8080/get_city_info"`
