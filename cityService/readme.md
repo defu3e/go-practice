@@ -34,3 +34,7 @@
 Пример получения информации о населенном пункте по его ID:
 
 `curl -X GET -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":13}' "http://localhost:8080/get_city_info"`
+
+Пример получение списка городов по указанному региону, округу, численности населения, указанному диапазону года основания.
+
+`curl -X GET -H "Content-type: application/json" -H "Accept: application/json" -d '{"district":"Сибирский", "population":[1000000, 2000000]}' "http://localhost:8080/get_cities"`
