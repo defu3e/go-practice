@@ -35,6 +35,6 @@
 
 `curl -X GET -H "Content-type: application/json" -H "Accept: application/json" -d '{"id":13}' "http://localhost:8080/get_city_info"`
 
-Пример получения списка городов по указанному региону, округу, численности населения, указанному диапазону года основания.
+Пример получения списка городов по указанному региону, округу, диапозону численности населения.
 
 `curl -X GET -H "Content-type: application/json" -H "Accept: application/json" -d '{"district":"Сибирский", "population":[1000000, 2000000]}' "http://localhost:8080/get_cities"`
