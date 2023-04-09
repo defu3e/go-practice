@@ -3,6 +3,7 @@ package constants
 const (
 	SMS_ITEM_LEN = 4 
 	VOICE_ITEM_LEN = 8
+	EMAIL_ITEM_LEN = 4
 )
 
 var (
