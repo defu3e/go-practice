@@ -1,4 +1,4 @@
-module github.com/antondzhukov/skillbox-diploma
+module stageSystem
 
 go 1.18
 

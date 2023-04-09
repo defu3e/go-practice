@@ -1,15 +1,18 @@
 package main
 
 import (
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
 	"math/rand"
+	"net/http"
 	"strconv"
 	"strings"
-	"io/ioutil"
-	"fmt"
 	"time"
-	"encoding/json"
-	"net/http"
+
 	"github.com/gorilla/mux"
+
+	"stageSystem/pkg/smsgetter"
 )
 
 const minResponseTime = 30
@@ -119,7 +122,12 @@ func main() {
 	SupportCollection = shuffleSupportData()
 	AccendentCollection = shuffleAccendentData()
 
+	// debug
+	smsgetter.GetSmsData("sms.data")
+
 	listenAndServeHTTP()
+
+	
 }
 
 func shuffleSmsData() {
