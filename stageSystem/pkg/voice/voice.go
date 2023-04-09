@@ -1,4 +1,4 @@
-package smsgetter
+package voice
 
 import (
 	"fmt"
@@ -6,25 +6,30 @@ import (
 	"log"
 	"stageSystem/pkg/constants"
 	"stageSystem/pkg/functions"
+	"strconv"
 	"strings"
 )
 
-type SMSData struct { 
+type VoiceData struct { 
     Сountry string 
-    Bandwidth string 
-    ResponseTime string
+	Bandwidth int
+    ResponseTime int 
     Provider string 
+	ConnectionStability float32
+	TTFB int
+	VoicePurity int
+	MedianOfCallsTime int
 }
 
-func GetSmsData(srcFilePath string) []SMSData {
-    log.Println("Getting sms data...")
+func GetVoiceData(srcFilePath string) []VoiceData {
+    log.Println("\n=== Getting voice data ===")
     content, err := ioutil.ReadFile(srcFilePath)
     if err != nil {
         log.Fatal(err)
     }
 
     rows := strings.Split(string(content), "\n")
-    res := []SMSData{}
+    res := []VoiceData{}
     
     for i, r := range rows {
         log.Print("reading row: ", r)
@@ -33,23 +38,37 @@ func GetSmsData(srcFilePath string) []SMSData {
             log.Printf("error: invalid string format at %d row: <%s> | %s", i, r, err)
             continue
         } 
-
+		
         fields := strings.Split(r, ";")
-        res = append(res, SMSData{
-            fields[0],
-            fields[1],
-            fields[2],
-            fields[3],
-        })
+        res = append(res, formatVoiceFields(fields))
     }
-
-    fmt.Println(res)
+	
     return res
+}
+
+func formatVoiceFields (fields []string) VoiceData {
+	Bandwidth,_     := strconv.Atoi(fields[1])
+	ResponseTime,_  := strconv.Atoi(fields[2])
+	ConStability,_  := strconv.ParseFloat(fields[3], 32)
+	TTFB,_ 		    := strconv.Atoi(fields[4])
+	VoicePurity,_   := strconv.Atoi(fields[5])
+	MedianOfCallsTime,_ := strconv.Atoi(fields[6])
+
+	return VoiceData{
+		fields[0],
+		Bandwidth,
+		ResponseTime,
+		fields[3],
+		float32 (ConStability),
+		TTFB,
+		VoicePurity,
+		MedianOfCallsTime,
+	}
 }
 
 func validateRow(s string) error {
     // check if string has delimeter
-    if strings.Count(s, ";") != (constants.SMS_ITEM_LEN - 1) {
+    if strings.Count(s, ";") != (constants.VOICE_ITEM_LEN - 1) {
         return fmt.Errorf("required delimiters not found") 
     }
 
@@ -58,14 +77,14 @@ func validateRow(s string) error {
         a2       = fields[0]
         provider = fields[3]
     )
-
+    
     // validate alpha field
     if !functions.IsValidCountryCode(a2) {
         return fmt.Errorf("string has incorrect country aplha2 code")
     }
 
     // validate provider
-    if !functions.IsValidProvider(provider, "SMS") {
+    if !functions.IsValidProvider(provider, "VOICE") {
         return fmt.Errorf("string has incorrect provider name")
     }
 

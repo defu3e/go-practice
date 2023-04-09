@@ -82,7 +82,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AC">AC</a>, ASC, -1,
 		 * Exceptionally reserved]
 		 */
-		"AC": CountryCode{
+		"AC": {
 			Name:        "Ascension Island",
 			Alpha2:      "AC",
 			Alpha3:      "ASC",
@@ -96,7 +96,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AD">AD</a>, AND, 16,
 		 * Officially assigned]
 		 */
-		"AD": CountryCode{
+		"AD": {
 			Name:        "Andorra",
 			Alpha2:      "AD",
 			Alpha3:      "AND",
@@ -110,7 +110,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AE">AE</a>, AE, 784,
 		 * Officially assigned]
 		 */
-		"AE": CountryCode{
+		"AE": {
 			Name:        "United Arab Emirates",
 			Alpha2:      "AE",
 			Alpha3:      "ARE",
@@ -124,7 +124,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AF">AF</a>, AFG, 4,
 		 * Officially assigned]
 		 */
-		"AF": CountryCode{
+		"AF": {
 			Name:        "Afghanistan",
 			Alpha2:      "AF",
 			Alpha3:      "AFG",
@@ -138,7 +138,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AG">AG</a>, ATG, 28,
 		 * Officially assigned]
 		 */
-		"AG": CountryCode{
+		"AG": {
 			Name:        "Antigua and Barbuda",
 			Alpha2:      "AG",
 			Alpha3:      "ATG",
@@ -152,7 +152,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AI">AI</a>, AIA, 660,
 		 * Officially assigned]
 		 */
-		"AI": CountryCode{
+		"AI": {
 			Name:        "Anguilla",
 			Alpha2:      "AI",
 			Alpha3:      "AIA",
@@ -166,7 +166,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AL">AL</a>, ALB, 8,
 		 * Officially assigned]
 		 */
-		"AL": CountryCode{
+		"AL": {
 			Name:        "Albania",
 			Alpha2:      "AL",
 			Alpha3:      "ALB",
@@ -180,7 +180,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AM">AM</a>, ARM, 51,
 		 * Officially assigned]
 		 */
-		"AM": CountryCode{
+		"AM": {
 			Name:        "Armenia",
 			Alpha2:      "AM",
 			Alpha3:      "ARM",
@@ -194,7 +194,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AN">AN</a>, ANHH, 530,
 		 * Traditionally reserved]
 		 */
-		"AN": CountryCode{
+		"AN": {
 			Name:        "Netherlands Antilles",
 			Alpha2:      "AN",
 			Alpha3:      "ANHH",
@@ -208,7 +208,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AO">AO</a>, AGO, 24,
 		 * Officially assigned]
 		 */
-		"AO": CountryCode{
+		"AO": {
 			Name:        "Angola",
 			Alpha2:      "AO",
 			Alpha3:      "AGO",
@@ -222,7 +222,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AQ">AQ</a>, ATA, 10,
 		 * Officially assigned]
 		 */
-		"AQ": CountryCode{
+		"AQ": {
 			Name:        "Antarctica",
 			Alpha2:      "AQ",
 			Alpha3:      "ATA",
@@ -236,7 +236,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AR">AR</a>, ARG, 32,
 		 * Officially assigned]
 		 */
-		"AR": CountryCode{
+		"AR": {
 			Name:        "Argentina",
 			Alpha2:      "AR",
 			Alpha3:      "ARG",
@@ -250,7 +250,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AS">AS</a>, ASM, 16,
 		 * Officially assigned]
 		 */
-		"AS": CountryCode{
+		"AS": {
 			Name:        "American Samoa",
 			Alpha2:      "AS",
 			Alpha3:      "ASM",
@@ -264,7 +264,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AT">AT</a>, AUT, 40,
 		 * Officially assigned]
 		 */
-		"AT": CountryCode{
+		"AT": {
 			Name:        "Austria",
 			Alpha2:      "AT",
 			Alpha3:      "AUT",
@@ -278,7 +278,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AU">AU</a>, AUS, 36,
 		 * Officially assigned]
 		 */
-		"AU": CountryCode{
+		"AU": {
 			Name:        "Australia",
 			Alpha2:      "AU",
 			Alpha3:      "AUS",
@@ -292,7 +292,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AW">AW</a>, ABW, 533,
 		 * Officially assigned]
 		 */
-		"AW": CountryCode{
+		"AW": {
 			Name:        "Aruba",
 			Alpha2:      "AW",
 			Alpha3:      "ABW",
@@ -306,7 +306,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AX">AX</a>, ALA, 248,
 		 * Officially assigned]
 		 */
-		"AX": CountryCode{
+		"AX": {
 			Name:        "\u212Bland Islands",
 			Alpha2:      "AX",
 			Alpha3:      "ALA",
@@ -320,7 +320,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#AZ">AZ</a>, AZE, 31,
 		 * Officially assigned]
 		 */
-		"AZ": CountryCode{
+		"AZ": {
 			Name:        "Azerbaijan",
 			Alpha2:      "AZ",
 			Alpha3:      "AZE",
@@ -334,7 +334,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BA">BA</a>, BIH, 70,
 		 * Officially assigned]
 		 */
-		"BA": CountryCode{
+		"BA": {
 			Name:        "Bosnia and Herzegovina",
 			Alpha2:      "BA",
 			Alpha3:      "BIH",
@@ -348,7 +348,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BB">BB</a>, BRB, 52,
 		 * Officially assigned]
 		 */
-		"BB": CountryCode{
+		"BB": {
 			Name:        "Barbados",
 			Alpha2:      "BB",
 			Alpha3:      "BRB",
@@ -362,7 +362,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BD">BD</a>, BGD, 50,
 		 * Officially assigned]
 		 */
-		"BD": CountryCode{
+		"BD": {
 			Name:        "Bangladesh",
 			Alpha2:      "BD",
 			Alpha3:      "BGD",
@@ -376,7 +376,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BE">BE</a>, BEL, 56,
 		 * Officially assigned]
 		 */
-		"BE": CountryCode{
+		"BE": {
 			Name:        "Belgium",
 			Alpha2:      "BE",
 			Alpha3:      "BEL",
@@ -390,7 +390,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BF">BF</a>, BFA, 854,
 		 * Officially assigned]
 		 */
-		"BF": CountryCode{
+		"BF": {
 			Name:        "Burkina Faso",
 			Alpha2:      "BF",
 			Alpha3:      "BFA",
@@ -404,7 +404,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BG">BG</a>, BGR, 100,
 		 * Officially assigned]
 		 */
-		"BG": CountryCode{
+		"BG": {
 			Name:        "Bulgaria",
 			Alpha2:      "BG",
 			Alpha3:      "BGR",
@@ -418,7 +418,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BH">BH</a>, BHR, 48,
 		 * Officially assigned]
 		 */
-		"BH": CountryCode{
+		"BH": {
 			Name:        "Bahrain",
 			Alpha2:      "BH",
 			Alpha3:      "BHR",
@@ -432,7 +432,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BI">BI</a>, BDI, 108,
 		 * Officially assigned]
 		 */
-		"BI": CountryCode{
+		"BI": {
 			Name:        "Burundi",
 			Alpha2:      "BI",
 			Alpha3:      "BDI",
@@ -446,7 +446,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BJ">BJ</a>, BEN, 204,
 		 * Officially assigned]
 		 */
-		"BJ": CountryCode{
+		"BJ": {
 			Name:        "Benin",
 			Alpha2:      "BJ",
 			Alpha3:      "BEN",
@@ -460,7 +460,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BL">BL</a>, BLM, 652,
 		 * Officially assigned]
 		 */
-		"BL": CountryCode{
+		"BL": {
 			Name:        "Saint Barth\u00E9lemy",
 			Alpha2:      "BL",
 			Alpha3:      "BLM",
@@ -474,7 +474,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BM">BM</a>, BMU, 60,
 		 * Officially assigned]
 		 */
-		"BM": CountryCode{
+		"BM": {
 			Name:        "Bermuda",
 			Alpha2:      "BM",
 			Alpha3:      "BMU",
@@ -488,7 +488,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BN">BN</a>, BRN, 96,
 		 * Officially assigned]
 		 */
-		"BN": CountryCode{
+		"BN": {
 			Name:        "Brunei Darussalam",
 			Alpha2:      "BN",
 			Alpha3:      "BRN",
@@ -502,7 +502,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BO">BO</a>, BOL, 68,
 		 * Officially assigned]
 		 */
-		"BO": CountryCode{
+		"BO": {
 			Name:        "Bolivia, Plurinational State of",
 			Alpha2:      "BO",
 			Alpha3:      "BOL",
@@ -516,7 +516,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BQ">BQ</a>, BES, 535,
 		 * Officially assigned]
 		 */
-		"BQ": CountryCode{
+		"BQ": {
 			Name:        "Bonaire, Sint Eustatius and Saba",
 			Alpha2:      "BQ",
 			Alpha3:      "BES",
@@ -530,7 +530,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BR">BR</a>, BRA, 76,
 		 * Officially assigned]
 		 */
-		"BR": CountryCode{
+		"BR": {
 			Name:        "Brazil",
 			Alpha2:      "BR",
 			Alpha3:      "BRA",
@@ -544,7 +544,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BS">BS</a>, BHS, 44,
 		 * Officially assigned]
 		 */
-		"BS": CountryCode{
+		"BS": {
 			Name:        "Bahamas",
 			Alpha2:      "BS",
 			Alpha3:      "BHS",
@@ -558,7 +558,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BT">BT</a>, BTN, 64,
 		 * Officially assigned]
 		 */
-		"BT": CountryCode{
+		"BT": {
 			Name:        "Bhutan",
 			Alpha2:      "BT",
 			Alpha3:      "BTN",
@@ -574,7 +574,7 @@ func Init() {
 		 *
 		 * @see #MM
 		 */
-		"BU": CountryCode{
+		"BU": {
 			Name:        "Burma",
 			Alpha2:      "BU",
 			Alpha3:      "BUMM",
@@ -588,7 +588,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BV">BV</a>, BVT, 74,
 		 * Officially assigned]
 		 */
-		"BV": CountryCode{
+		"BV": {
 			Name:        "Bouvet Island",
 			Alpha2:      "BV",
 			Alpha3:      "BVT",
@@ -602,7 +602,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BW">BW</a>, BWA, 72,
 		 * Officially assigned]
 		 */
-		"BW": CountryCode{
+		"BW": {
 			Name:        "Botswana",
 			Alpha2:      "BW",
 			Alpha3:      "BWA",
@@ -616,7 +616,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BY">BY</a>, BLR, 112,
 		 * Officially assigned]
 		 */
-		"BY": CountryCode{
+		"BY": {
 			Name:        "Belarus",
 			Alpha2:      "BY",
 			Alpha3:      "BLR",
@@ -630,7 +630,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#BZ">BZ</a>, BLZ, 84,
 		 * Officially assigned]
 		 */
-		"BZ": CountryCode{
+		"BZ": {
 			Name:        "Belize",
 			Alpha2:      "BZ",
 			Alpha3:      "BLZ",
@@ -644,7 +644,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CA">CA</a>, CAN, 124,
 		 * Officially assigned]
 		 */
-		"CA": CountryCode{
+		"CA": {
 			Name:        "Canada",
 			Alpha2:      "CA",
 			Alpha3:      "CAN",
@@ -657,7 +657,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CC">CC</a>, CCK, 166,
 		 * Officially assigned]
 		 */
-		"CC": CountryCode{
+		"CC": {
 			Name:        "Cocos (Keeling) Islands",
 			Alpha2:      "CC",
 			Alpha3:      "CCK",
@@ -671,7 +671,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CD">CD</a>, COD, 180,
 		 * Officially assigned]
 		 */
-		"CD": CountryCode{
+		"CD": {
 			Name:        "Congo, the Democratic Republic of the",
 			Alpha2:      "CD",
 			Alpha3:      "COD",
@@ -685,7 +685,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CF">CF</a>, CAF, 140,
 		 * Officially assigned]
 		 */
-		"CF": CountryCode{
+		"CF": {
 			Name:        "Central African Republic",
 			Alpha2:      "CF",
 			Alpha3:      "CAF",
@@ -699,7 +699,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CG">CG</a>, COG, 178,
 		 * Officially assigned]
 		 */
-		"CG": CountryCode{
+		"CG": {
 			Name:        "Congo",
 			Alpha2:      "CG",
 			Alpha3:      "COG",
@@ -713,7 +713,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CH">CH</a>, CHE, 756,
 		 * Officially assigned]
 		 */
-		"CH": CountryCode{
+		"CH": {
 			Name:        "Switzerland",
 			Alpha2:      "CH",
 			Alpha3:      "CHE",
@@ -727,7 +727,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CI">CI</a>, CIV, 384,
 		 * Officially assigned]
 		 */
-		"CI": CountryCode{
+		"CI": {
 			Name:        "C\u00F4te d'Ivoire",
 			Alpha2:      "CI",
 			Alpha3:      "CIV",
@@ -741,7 +741,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CK">CK</a>, COK, 184,
 		 * Officially assigned]
 		 */
-		"CK": CountryCode{
+		"CK": {
 			Name:        "Cook Islands",
 			Alpha2:      "CK",
 			Alpha3:      "COK",
@@ -755,7 +755,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CL">CL</a>, CHL, 152,
 		 * Officially assigned]
 		 */
-		"CL": CountryCode{
+		"CL": {
 			Name:        "Chile",
 			Alpha2:      "CL",
 			Alpha3:      "CHL",
@@ -769,7 +769,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CM">CM</a>, CMR, 120,
 		 * Officially assigned]
 		 */
-		"CM": CountryCode{
+		"CM": {
 			Name:        "Cameroon",
 			Alpha2:      "CM",
 			Alpha3:      "CMR",
@@ -783,7 +783,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CN">CN</a>, CHN, 156,
 		 * Officially assigned]
 		 */
-		"CN": CountryCode{
+		"CN": {
 			Name:        "China",
 			Alpha2:      "CN",
 			Alpha3:      "CHN",
@@ -796,7 +796,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CO">CO</a>, COL, 170,
 		 * Officially assigned]
 		 */
-		"CO": CountryCode{
+		"CO": {
 			Name:        "Colombia",
 			Alpha2:      "CO",
 			Alpha3:      "COL",
@@ -810,7 +810,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CP">CP</a>, CPT, -1,
 		 * Exceptionally reserved]
 		 */
-		"CP": CountryCode{
+		"CP": {
 			Name:        "Clipperton Island",
 			Alpha2:      "CP",
 			Alpha3:      "CPT",
@@ -824,7 +824,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CR">CR</a>, CRI, 188,
 		 * Officially assigned]
 		 */
-		"CR": CountryCode{
+		"CR": {
 			Name:        "Costa Rica",
 			Alpha2:      "CR",
 			Alpha3:      "CRI",
@@ -838,7 +838,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CS">CS</a>, CSXX, 891,
 		 * Traditionally reserved]
 		 */
-		"CS": CountryCode{
+		"CS": {
 			Name:        "Serbia and Montenegro",
 			Alpha2:      "CS",
 			Alpha3:      "CSXX",
@@ -852,7 +852,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CU">CU</a>, CUB, 192,
 		 * Officially assigned]
 		 */
-		"CU": CountryCode{
+		"CU": {
 			Name:        "Cuba",
 			Alpha2:      "CU",
 			Alpha3:      "CUB",
@@ -866,7 +866,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CV">CV</a>, CPV, 132,
 		 * Officially assigned]
 		 */
-		"CV": CountryCode{
+		"CV": {
 			Name:        "Cape Verde",
 			Alpha2:      "CV",
 			Alpha3:      "CPV",
@@ -880,7 +880,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CW">CW</a>, CUW, 531,
 		 * Officially assigned]
 		 */
-		"CW": CountryCode{
+		"CW": {
 			Name:        "Cura\u00E7ao",
 			Alpha2:      "CW",
 			Alpha3:      "CUW",
@@ -894,7 +894,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CX">CX</a>, CXR, 162,
 		 * Officially assigned]
 		 */
-		"CX": CountryCode{
+		"CX": {
 			Name:        "Christmas Island",
 			Alpha2:      "CX",
 			Alpha3:      "CXR",
@@ -908,7 +908,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CY">CY</a>, CYP, 196,
 		 * Officially assigned]
 		 */
-		"CY": CountryCode{
+		"CY": {
 			Name:        "Cyprus",
 			Alpha2:      "CY",
 			Alpha3:      "CYP",
@@ -922,7 +922,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#CZ">CZ</a>, CZE, 203,
 		 * Officially assigned]
 		 */
-		"CZ": CountryCode{
+		"CZ": {
 			Name:        "Czech Republic",
 			Alpha2:      "CZ",
 			Alpha3:      "CZE",
@@ -936,7 +936,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#DE">DE</a>, DEU, 276,
 		 * Officially assigned]
 		 */
-		"DE": CountryCode{
+		"DE": {
 			Name:        "Germany",
 			Alpha2:      "DE",
 			Alpha3:      "DEU",
@@ -950,7 +950,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#DG">DG</a>, DGA, -1,
 		 * Exceptionally reserved]
 		 */
-		"DG": CountryCode{
+		"DG": {
 			Name:        "Diego Garcia",
 			Alpha2:      "DG",
 			Alpha3:      "DGA",
@@ -964,7 +964,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#DJ">DJ</a>, DJI, 262,
 		 * Officially assigned]
 		 */
-		"DJ": CountryCode{
+		"DJ": {
 			Name:        "Djibouti",
 			Alpha2:      "DJ",
 			Alpha3:      "DJI",
@@ -978,7 +978,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#DK">DK</a>, DNK, 208,
 		 * Officially assigned]
 		 */
-		"DK": CountryCode{
+		"DK": {
 			Name:        "Denmark",
 			Alpha2:      "DK",
 			Alpha3:      "DNK",
@@ -992,7 +992,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#DM">DM</a>, DMA, 212,
 		 * Officially assigned]
 		 */
-		"DM": CountryCode{
+		"DM": {
 			Name:        "Dominica",
 			Alpha2:      "DM",
 			Alpha3:      "DMA",
@@ -1006,7 +1006,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#DO">DO</a>, DOM, 214,
 		 * Officially assigned]
 		 */
-		"DO": CountryCode{
+		"DO": {
 			Name:        "Dominican Republic",
 			Alpha2:      "DO",
 			Alpha3:      "DOM",
@@ -1020,7 +1020,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#DZ">DZ</a>, DZA, 12,
 		 * Officially assigned]
 		 */
-		"DZ": CountryCode{
+		"DZ": {
 			Name:        "Algeria",
 			Alpha2:      "DZ",
 			Alpha3:      "DZA",
@@ -1035,7 +1035,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#EA">EA</a>, null, -1,
 		 * Exceptionally reserved]
 		 */
-		"EA": CountryCode{
+		"EA": {
 			Name:        "Ceuta, Melilla",
 			Alpha2:      "EA",
 			Alpha3:      "",
@@ -1049,7 +1049,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#EC">EC</a>, ECU, 218,
 		 * Officially assigned]
 		 */
-		"EC": CountryCode{
+		"EC": {
 			Name:        "Ecuador",
 			Alpha2:      "EC",
 			Alpha3:      "ECU",
@@ -1063,7 +1063,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#EE">EE</a>, EST, 233,
 		 * Officially assigned]
 		 */
-		"EE": CountryCode{
+		"EE": {
 			Name:        "Estonia",
 			Alpha2:      "EE",
 			Alpha3:      "EST",
@@ -1077,7 +1077,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#EG">EG</a>, EGY, 818,
 		 * Officially assigned]
 		 */
-		"EG": CountryCode{
+		"EG": {
 			Name:        "Egypt",
 			Alpha2:      "EG",
 			Alpha3:      "EGY",
@@ -1091,7 +1091,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#EH">EH</a>, ESH, 732,
 		 * Officially assigned]
 		 */
-		"EH": CountryCode{
+		"EH": {
 			Name:        "Western Sahara",
 			Alpha2:      "EH",
 			Alpha3:      "ESH",
@@ -1105,7 +1105,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ER">ER</a>, ERI, 232,
 		 * Officially assigned]
 		 */
-		"ER": CountryCode{
+		"ER": {
 			Name:        "Eritrea",
 			Alpha2:      "ER",
 			Alpha3:      "ERI",
@@ -1119,7 +1119,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ES">ES</a>, ESP, 724,
 		 * Officially assigned]
 		 */
-		"ES": CountryCode{
+		"ES": {
 			Name:        "Spain",
 			Alpha2:      "ES",
 			Alpha3:      "ESP",
@@ -1133,7 +1133,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ET">ET</a>, ETH, 231,
 		 * Officially assigned]
 		 */
-		"ET": CountryCode{
+		"ET": {
 			Name:        "Ethiopia",
 			Alpha2:      "ET",
 			Alpha3:      "ETH",
@@ -1147,7 +1147,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#EU">EU</a>, null, -1,
 		 * Exceptionally reserved]
 		 */
-		"EU": CountryCode{
+		"EU": {
 			Name:        "European Union",
 			Alpha2:      "EU",
 			Alpha3:      "",
@@ -1163,7 +1163,7 @@ func Init() {
 		 *
 		 * @see #SF
 		 */
-		"FI": CountryCode{
+		"FI": {
 			Name:        "Finland",
 			Alpha2:      "FI",
 			Alpha3:      "FIN",
@@ -1177,7 +1177,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#">FJ</a>, FJI, 242,
 		 * Officially assigned]
 		 */
-		"FJ": CountryCode{
+		"FJ": {
 			Name:        "Fiji",
 			Alpha2:      "FJ",
 			Alpha3:      "FJI",
@@ -1191,7 +1191,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#FK">FK</a>, FLK, 238,
 		 * Officially assigned]
 		 */
-		"FK": CountryCode{
+		"FK": {
 			Name:        "Falkland Islands (Malvinas)",
 			Alpha2:      "FK",
 			Alpha3:      "FLK",
@@ -1205,7 +1205,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#FM">FM</a>, FSM, 583,
 		 * Officially assigned]
 		 */
-		"FM": CountryCode{
+		"FM": {
 			Name:        "Micronesia, Federated States of",
 			Alpha2:      "FM",
 			Alpha3:      "FSM",
@@ -1219,7 +1219,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#FO">FO</a>, FRO, 234,
 		 * Officially assigned]
 		 */
-		"FO": CountryCode{
+		"FO": {
 			Name:        "Faroe Islands",
 			Alpha2:      "FO",
 			Alpha3:      "FRO",
@@ -1233,7 +1233,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#FR">FR</a>, FRA, 250,
 		 * Officially assigned]
 		 */
-		"FR": CountryCode{
+		"FR": {
 			Name:        "France",
 			Alpha2:      "FR",
 			Alpha3:      "FRA",
@@ -1247,7 +1247,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#FX">FX</a>, FXX, -1,
 		 * Exceptionally reserved]
 		 */
-		"FX": CountryCode{
+		"FX": {
 			Name:        "France, Metropolitan",
 			Alpha2:      "FX",
 			Alpha3:      "FXX",
@@ -1261,7 +1261,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GA">GA</a>, GAB, 266,
 		 * Officially assigned]
 		 */
-		"GA": CountryCode{
+		"GA": {
 			Name:        "Gabon",
 			Alpha2:      "GA",
 			Alpha3:      "GAB",
@@ -1275,7 +1275,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GB">GB</a>, GBR, 826,
 		 * Officially assigned]
 		 */
-		"GB": CountryCode{
+		"GB": {
 			Name:        "United Kingdom",
 			Alpha2:      "GB",
 			Alpha3:      "GBR",
@@ -1289,7 +1289,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GD">GD</a>, GRD, 308,
 		 * Officially assigned]
 		 */
-		"GD": CountryCode{
+		"GD": {
 			Name:        "Grenada",
 			Alpha2:      "GD",
 			Alpha3:      "GRD",
@@ -1303,7 +1303,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GE">GE</a>, GEO, 268,
 		 * Officially assigned]
 		 */
-		"GE": CountryCode{
+		"GE": {
 			Name:        "Georgia",
 			Alpha2:      "GE",
 			Alpha3:      "GEO",
@@ -1317,7 +1317,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GF">GF</a>, GUF, 254,
 		 * Officially assigned]
 		 */
-		"GF": CountryCode{
+		"GF": {
 			Name:        "French Guiana",
 			Alpha2:      "GF",
 			Alpha3:      "GUF",
@@ -1331,7 +1331,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GG">GG</a>, GGY, 831,
 		 * Officially assigned]
 		 */
-		"GG": CountryCode{
+		"GG": {
 			Name:        "Guernsey",
 			Alpha2:      "GG",
 			Alpha3:      "GGY",
@@ -1345,7 +1345,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GH">GH</a>, GHA, 288,
 		 * Officially assigned]
 		 */
-		"GH": CountryCode{
+		"GH": {
 			Name:        "Ghana",
 			Alpha2:      "GH",
 			Alpha3:      "GHA",
@@ -1359,7 +1359,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GI">GI</a>, GIB, 292,
 		 * Officially assigned]
 		 */
-		"GI": CountryCode{
+		"GI": {
 			Name:        "Gibraltar",
 			Alpha2:      "GI",
 			Alpha3:      "GIB",
@@ -1373,7 +1373,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GL">GL</a>, GRL, 304,
 		 * Officially assigned]
 		 */
-		"GL": CountryCode{
+		"GL": {
 			Name:        "Greenland",
 			Alpha2:      "GL",
 			Alpha3:      "GRL",
@@ -1387,7 +1387,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GM">GM</a>, GMB, 270,
 		 * Officially assigned]
 		 */
-		"GM": CountryCode{
+		"GM": {
 			Name:        "Gambia",
 			Alpha2:      "GM",
 			Alpha3:      "GMB",
@@ -1401,7 +1401,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GN">GN</a>, GIN, 324,
 		 * Officially assigned]
 		 */
-		"GN": CountryCode{
+		"GN": {
 			Name:        "Guinea",
 			Alpha2:      "GN",
 			Alpha3:      "GIN",
@@ -1415,7 +1415,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GP">GP</a>, GLP, 312,
 		 * Officially assigned]
 		 */
-		"GP": CountryCode{
+		"GP": {
 			Name:        "Guadeloupe",
 			Alpha2:      "GP",
 			Alpha3:      "GLP",
@@ -1429,7 +1429,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GQ">GQ</a>, GNQ, 226,
 		 * Officially assigned]
 		 */
-		"GQ": CountryCode{
+		"GQ": {
 			Name:        "Equatorial Guinea",
 			Alpha2:      "GQ",
 			Alpha3:      "GNQ",
@@ -1443,7 +1443,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GR">GR</a>, GRC, 300,
 		 * Officially assigned]
 		 */
-		"GR": CountryCode{
+		"GR": {
 			Name:        "Greece",
 			Alpha2:      "GR",
 			Alpha3:      "GRC",
@@ -1457,7 +1457,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GS">GS</a>, SGS, 239,
 		 * Officially assigned]
 		 */
-		"GS": CountryCode{
+		"GS": {
 			Name:        "South Georgia and the South Sandwich Islands",
 			Alpha2:      "GS",
 			Alpha3:      "SGS",
@@ -1471,7 +1471,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GT">GT</a>, GTM, 320,
 		 * Officially assigned]
 		 */
-		"GT": CountryCode{
+		"GT": {
 			Name:        "Guatemala",
 			Alpha2:      "GT",
 			Alpha3:      "GTM",
@@ -1485,7 +1485,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GU">GU</a>, GUM, 316,
 		 * Officially assigned]
 		 */
-		"GU": CountryCode{
+		"GU": {
 			Name:        "Guam",
 			Alpha2:      "GU",
 			Alpha3:      "GUM",
@@ -1499,7 +1499,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GW">GW</a>, GNB, 624,
 		 * Officially assigned]
 		 */
-		"GW": CountryCode{
+		"GW": {
 			Name:        "Guinea-Bissau",
 			Alpha2:      "GW",
 			Alpha3:      "GNB",
@@ -1513,7 +1513,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#GY">GY</a>, GUY, 328,
 		 * Officially assigned]
 		 */
-		"GY": CountryCode{
+		"GY": {
 			Name:        "Guyana",
 			Alpha2:      "GY",
 			Alpha3:      "GUY",
@@ -1527,7 +1527,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#HK">HK</a>, HKG, 344,
 		 * Officially assigned]
 		 */
-		"HK": CountryCode{
+		"HK": {
 			Name:        "Hong Kong",
 			Alpha2:      "HK",
 			Alpha3:      "HKG",
@@ -1541,7 +1541,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#HM">HM</a>, HMD, 334,
 		 * Officially assigned]
 		 */
-		"HM": CountryCode{
+		"HM": {
 			Name:        "Heard Island and McDonald Islands",
 			Alpha2:      "HM",
 			Alpha3:      "HMD",
@@ -1555,7 +1555,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#HN">HN</a>, HND, 340,
 		 * Officially assigned]
 		 */
-		"HN": CountryCode{
+		"HN": {
 			Name:        "Honduras",
 			Alpha2:      "HN",
 			Alpha3:      "HND",
@@ -1569,7 +1569,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#HR">HR</a>, HRV, 191,
 		 * Officially assigned]
 		 */
-		"HR": CountryCode{
+		"HR": {
 			Name:        "Croatia",
 			Alpha2:      "HR",
 			Alpha3:      "HRV",
@@ -1583,7 +1583,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#HT">HT</a>, HTI, 332,
 		 * Officially assigned]
 		 */
-		"HT": CountryCode{
+		"HT": {
 			Name:        "Haiti",
 			Alpha2:      "HT",
 			Alpha3:      "HTI",
@@ -1597,7 +1597,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#HU">HU</a>, HUN, 348,
 		 * Officially assigned]
 		 */
-		"HU": CountryCode{
+		"HU": {
 			Name:        "Hungary",
 			Alpha2:      "HU",
 			Alpha3:      "HUN",
@@ -1611,7 +1611,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IC">IC</a>, null, -1,
 		 * Exceptionally reserved]
 		 */
-		"IC": CountryCode{
+		"IC": {
 			Name:        "Canary Islands",
 			Alpha2:      "IC",
 			Alpha3:      "",
@@ -1625,7 +1625,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ID">ID</a>, IDN, 360,
 		 * Officially assigned]
 		 */
-		"ID": CountryCode{
+		"ID": {
 			Name:        "Indonesia",
 			Alpha2:      "ID",
 			Alpha3:      "IDN",
@@ -1639,7 +1639,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IE">IE</a>, IRL, 372,
 		 * Officially assigned]
 		 */
-		"IE": CountryCode{
+		"IE": {
 			Name:        "Ireland",
 			Alpha2:      "IE",
 			Alpha3:      "IRL",
@@ -1653,7 +1653,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IL">IL</a>, ISR, 376,
 		 * Officially assigned]
 		 */
-		"IL": CountryCode{
+		"IL": {
 			Name:        "Israel",
 			Alpha2:      "IL",
 			Alpha3:      "ISR",
@@ -1667,7 +1667,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IM">IM</a>, IMN, 833,
 		 * Officially assigned]
 		 */
-		"IM": CountryCode{
+		"IM": {
 			Name:        "Isle of Man",
 			Alpha2:      "IM",
 			Alpha3:      "IMN",
@@ -1681,7 +1681,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IN">IN</a>, IND, 356,
 		 * Officially assigned]
 		 */
-		"IN": CountryCode{
+		"IN": {
 			Name:        "India",
 			Alpha2:      "IN",
 			Alpha3:      "IND",
@@ -1695,7 +1695,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IO">IO</a>, IOT, 86,
 		 * Officially assigned]
 		 */
-		"IO": CountryCode{
+		"IO": {
 			Name:        "British Indian Ocean Territory",
 			Alpha2:      "IO",
 			Alpha3:      "IOT",
@@ -1709,7 +1709,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IQ">IQ</a>, IRQ, 368,
 		 * Officially assigned]
 		 */
-		"IQ": CountryCode{
+		"IQ": {
 			Name:        "Iraq",
 			Alpha2:      "IQ",
 			Alpha3:      "IRQ",
@@ -1723,7 +1723,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IR">IR</a>, IRN, 364,
 		 * Officially assigned]
 		 */
-		"IR": CountryCode{
+		"IR": {
 			Name:        "Iran, Islamic Republic of",
 			Alpha2:      "IR",
 			Alpha3:      "IRN",
@@ -1737,7 +1737,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IS">IS</a>, ISL, 352,
 		 * Officially assigned]
 		 */
-		"IS": CountryCode{
+		"IS": {
 			Name:        "Iceland",
 			Alpha2:      "IS",
 			Alpha3:      "ISL",
@@ -1751,7 +1751,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#IT">IT</a>, ITA, 380,
 		 * Officially assigned]
 		 */
-		"IT": CountryCode{
+		"IT": {
 			Name:        "Italy",
 			Alpha2:      "IT",
 			Alpha3:      "ITA",
@@ -1764,7 +1764,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#JE">JE</a>, JEY, 832,
 		 * Officially assigned]
 		 */
-		"JE": CountryCode{
+		"JE": {
 			Name:        "Jersey",
 			Alpha2:      "JE",
 			Alpha3:      "JEY",
@@ -1778,7 +1778,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#JM">JM</a>, JAM, 388,
 		 * Officially assigned]
 		 */
-		"JM": CountryCode{
+		"JM": {
 			Name:        "Jamaica",
 			Alpha2:      "JM",
 			Alpha3:      "JAM",
@@ -1792,7 +1792,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#JO">JO</a>, JOR, 400,
 		 * Officially assigned]
 		 */
-		"JO": CountryCode{
+		"JO": {
 			Name:        "Jordan",
 			Alpha2:      "JO",
 			Alpha3:      "JOR",
@@ -1806,7 +1806,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#JP">JP</a>, JPN, 392,
 		 * Officially assigned]
 		 */
-		"JP": CountryCode{
+		"JP": {
 			Name:        "Japan",
 			Alpha2:      "JP",
 			Alpha3:      "JPN",
@@ -1819,7 +1819,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KE">KE</a>, KEN, 404,
 		 * Officially assigned]
 		 */
-		"KE": CountryCode{
+		"KE": {
 			Name:        "Kenya",
 			Alpha2:      "KE",
 			Alpha3:      "KEN",
@@ -1833,7 +1833,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KG">KG</a>, KGZ, 417,
 		 * Officially assigned]
 		 */
-		"KG": CountryCode{
+		"KG": {
 			Name:        "Kyrgyzstan",
 			Alpha2:      "KG",
 			Alpha3:      "KGZ",
@@ -1847,7 +1847,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KH">KH</a>, KHM, 116,
 		 * Officially assigned]
 		 */
-		"KH": CountryCode{
+		"KH": {
 			Name:        "Cambodia",
 			Alpha2:      "KH",
 			Alpha3:      "KHM",
@@ -1861,7 +1861,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KI">KI</a>, KIR, 296,
 		 * Officially assigned]
 		 */
-		"KI": CountryCode{
+		"KI": {
 			Name:        "Kiribati",
 			Alpha2:      "KI",
 			Alpha3:      "KIR",
@@ -1875,7 +1875,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KM">KM</a>, COM, 174,
 		 * Officially assigned]
 		 */
-		"KM": CountryCode{
+		"KM": {
 			Name:        "Comoros",
 			Alpha2:      "KM",
 			Alpha3:      "COM",
@@ -1889,7 +1889,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KN">KN</a>, KNA, 659,
 		 * Officially assigned]
 		 */
-		"KN": CountryCode{
+		"KN": {
 			Name:        "Saint Kitts and Nevis",
 			Alpha2:      "KN",
 			Alpha3:      "KNA",
@@ -1903,7 +1903,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KP">KP</a>, PRK, 408,
 		 * Officially assigned]
 		 */
-		"KP": CountryCode{
+		"KP": {
 			Name:        "Korea, Democratic People's Republic of",
 			Alpha2:      "KP",
 			Alpha3:      "PRK",
@@ -1917,7 +1917,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KR">KR</a>, KOR, 410,
 		 * Officially assigned]
 		 */
-		"KR": CountryCode{
+		"KR": {
 			Name:        "Korea, Republic of",
 			Alpha2:      "KR",
 			Alpha3:      "KOR",
@@ -1931,7 +1931,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KW">KW</a>, KWT, 414,
 		 * Officially assigned]
 		 */
-		"KW": CountryCode{
+		"KW": {
 			Name:        "Kuwait",
 			Alpha2:      "KW",
 			Alpha3:      "KWT",
@@ -1945,7 +1945,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KY">KY</a>, CYM, 136,
 		 * Officially assigned]
 		 */
-		"KY": CountryCode{
+		"KY": {
 			Name:        "Cayman Islands",
 			Alpha2:      "KY",
 			Alpha3:      "CYM",
@@ -1959,7 +1959,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#KZ">KZ</a>, KAZ, 398,
 		 * Officially assigned]
 		 */
-		"KZ": CountryCode{
+		"KZ": {
 			Name:        "Kazakhstan",
 			Alpha2:      "KZ",
 			Alpha3:      "KAZ",
@@ -1973,7 +1973,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LA">LA</a>, LAO, 418,
 		 * Officially assigned]
 		 */
-		"LA": CountryCode{
+		"LA": {
 			Name:        "Lao People's Democratic Republic",
 			Alpha2:      "LA",
 			Alpha3:      "LAO",
@@ -1987,7 +1987,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LB">LB</a>, LBN, 422,
 		 * Officially assigned]
 		 */
-		"LB": CountryCode{
+		"LB": {
 			Name:        "Lebanon",
 			Alpha2:      "LB",
 			Alpha3:      "LBN",
@@ -2001,7 +2001,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LC">LC</a>, LCA, 662,
 		 * Officially assigned]
 		 */
-		"LC": CountryCode{
+		"LC": {
 			Name:        "Saint Lucia",
 			Alpha2:      "LC",
 			Alpha3:      "LCA",
@@ -2015,7 +2015,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LI">LI</a>, LIE, 438,
 		 * Officially assigned]
 		 */
-		"LI": CountryCode{
+		"LI": {
 			Name:        "Liechtenstein",
 			Alpha2:      "LI",
 			Alpha3:      "LIE",
@@ -2029,7 +2029,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LK">LK</a>, LKA, 144,
 		 * Officially assigned]
 		 */
-		"LK": CountryCode{
+		"LK": {
 			Name:        "Sri Lanka",
 			Alpha2:      "LK",
 			Alpha3:      "LKA",
@@ -2043,7 +2043,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LR">LR</a>, LBR, 430,
 		 * Officially assigned]
 		 */
-		"LR": CountryCode{
+		"LR": {
 			Name:        "Liberia",
 			Alpha2:      "LR",
 			Alpha3:      "LBR",
@@ -2057,7 +2057,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LS">LS</a>, LSO, 426,
 		 * Officially assigned]
 		 */
-		"LS": CountryCode{
+		"LS": {
 			Name:        "Lesotho",
 			Alpha2:      "LS",
 			Alpha3:      "LSO",
@@ -2071,7 +2071,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LT">LT</a>, LTU, 440,
 		 * Officially assigned]
 		 */
-		"LT": CountryCode{
+		"LT": {
 			Name:        "Lithuania",
 			Alpha2:      "LT",
 			Alpha3:      "LTU",
@@ -2085,7 +2085,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LU">LU</a>, LUX, 442,
 		 * Officially assigned]
 		 */
-		"LU": CountryCode{
+		"LU": {
 			Name:        "Luxembourg",
 			Alpha2:      "LU",
 			Alpha3:      "LUX",
@@ -2099,7 +2099,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LV">LV</a>, LVA, 428,
 		 * Officially assigned]
 		 */
-		"LV": CountryCode{
+		"LV": {
 			Name:        "Latvia",
 			Alpha2:      "LV",
 			Alpha3:      "LVA",
@@ -2113,7 +2113,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#LY">LY</a>, LBY, 434,
 		 * Officially assigned]
 		 */
-		"LY": CountryCode{
+		"LY": {
 			Name:        "Libya",
 			Alpha2:      "LY",
 			Alpha3:      "LBY",
@@ -2127,7 +2127,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MA">MA</a>, MAR, 504,
 		 * Officially assigned]
 		 */
-		"MA": CountryCode{
+		"MA": {
 			Name:        "Morocco",
 			Alpha2:      "MA",
 			Alpha3:      "MAR",
@@ -2141,7 +2141,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MC">MC</a>, MCO, 492,
 		 * Officially assigned]
 		 */
-		"MC": CountryCode{
+		"MC": {
 			Name:        "Monaco",
 			Alpha2:      "MC",
 			Alpha3:      "MCO",
@@ -2155,7 +2155,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MD">MD</a>, MDA, 498,
 		 * Officially assigned]
 		 */
-		"MD": CountryCode{
+		"MD": {
 			Name:        "Moldova, Republic of",
 			Alpha2:      "MD",
 			Alpha3:      "MDA",
@@ -2169,7 +2169,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ME">ME</a>, MNE, 499,
 		 * Officially assigned]
 		 */
-		"ME": CountryCode{
+		"ME": {
 			Name:        "Montenegro",
 			Alpha2:      "ME",
 			Alpha3:      "MNE",
@@ -2183,7 +2183,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MF">MF</a>, MAF, 663,
 		 * Officially assigned]
 		 */
-		"MF": CountryCode{
+		"MF": {
 			Name:        "Saint Martin (French part)",
 			Alpha2:      "MF",
 			Alpha3:      "MAF",
@@ -2197,7 +2197,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MG">MG</a>, MDG, 450,
 		 * Officially assigned]
 		 */
-		"MG": CountryCode{
+		"MG": {
 			Name:        "Madagascar",
 			Alpha2:      "MG",
 			Alpha3:      "MDG",
@@ -2211,7 +2211,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MH">MH</a>, MHL, 584,
 		 * Officially assigned]
 		 */
-		"MH": CountryCode{
+		"MH": {
 			Name:        "Marshall Islands",
 			Alpha2:      "MH",
 			Alpha3:      "MHL",
@@ -2225,7 +2225,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MK">MK</a>, MKD, 807,
 		 * Officially assigned]
 		 */
-		"MK": CountryCode{
+		"MK": {
 			Name:        "Macedonia, the former Yugoslav Republic of",
 			Alpha2:      "MK",
 			Alpha3:      "MKD",
@@ -2239,7 +2239,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ML">ML</a>, MLI, 466,
 		 * Officially assigned]
 		 */
-		"ML": CountryCode{
+		"ML": {
 			Name:        "Mali",
 			Alpha2:      "ML",
 			Alpha3:      "MLI",
@@ -2255,7 +2255,7 @@ func Init() {
 		 *
 		 * @see #BU
 		 */
-		"MM": CountryCode{
+		"MM": {
 			Name:        "Myanmar",
 			Alpha2:      "MM",
 			Alpha3:      "MMR",
@@ -2269,7 +2269,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MN">MN</a>, MNG, 496,
 		 * Officially assigned]
 		 */
-		"MN": CountryCode{
+		"MN": {
 			Name:        "Mongolia",
 			Alpha2:      "MN",
 			Alpha3:      "MNG",
@@ -2283,7 +2283,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MO">MO</a>, MCO, 492,
 		 * Officially assigned]
 		 */
-		"MO": CountryCode{
+		"MO": {
 			Name:        "Macao",
 			Alpha2:      "MO",
 			Alpha3:      "MAC",
@@ -2297,7 +2297,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MP">MP</a>, MNP, 580,
 		 * Officially assigned]
 		 */
-		"MP": CountryCode{
+		"MP": {
 			Name:        "Northern Mariana Islands",
 			Alpha2:      "MP",
 			Alpha3:      "MNP",
@@ -2311,7 +2311,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MQ">MQ</a>, MTQ, 474,
 		 * Officially assigned]
 		 */
-		"MQ": CountryCode{
+		"MQ": {
 			Name:        "Martinique",
 			Alpha2:      "MQ",
 			Alpha3:      "MTQ",
@@ -2325,7 +2325,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MR">MR</a>, MRT, 478,
 		 * Officially assigned]
 		 */
-		"MR": CountryCode{
+		"MR": {
 			Name:        "Mauritania",
 			Alpha2:      "MR",
 			Alpha3:      "MRT",
@@ -2339,7 +2339,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MS">MS</a>, MSR, 500,
 		 * Officially assigned]
 		 */
-		"MS": CountryCode{
+		"MS": {
 			Name:        "Montserrat",
 			Alpha2:      "MS",
 			Alpha3:      "MSR",
@@ -2353,7 +2353,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MT">MT</a>, MLT, 470,
 		 * Officially assigned]
 		 */
-		"MT": CountryCode{
+		"MT": {
 			Name:        "Malta",
 			Alpha2:      "MT",
 			Alpha3:      "MLT",
@@ -2367,7 +2367,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MU">MU</a>, MUS, 480,
 		 * Officially assigned]]
 		 */
-		"MU": CountryCode{
+		"MU": {
 			Name:        "Mauritius",
 			Alpha2:      "MU",
 			Alpha3:      "MUS",
@@ -2381,7 +2381,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MV">MV</a>, MDV, 462,
 		 * Officially assigned]
 		 */
-		"MV": CountryCode{
+		"MV": {
 			Name:        "Maldives",
 			Alpha2:      "MV",
 			Alpha3:      "MDV",
@@ -2395,7 +2395,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MW">MW</a>, MWI, 454,
 		 * Officially assigned]
 		 */
-		"MW": CountryCode{
+		"MW": {
 			Name:        "Malawi",
 			Alpha2:      "MW",
 			Alpha3:      "MWI",
@@ -2409,7 +2409,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MX">MX</a>, MEX, 484,
 		 * Officially assigned]
 		 */
-		"MX": CountryCode{
+		"MX": {
 			Name:        "Mexico",
 			Alpha2:      "MX",
 			Alpha3:      "MEX",
@@ -2423,7 +2423,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MY">MY</a>, MYS, 458,
 		 * Officially assigned]
 		 */
-		"MY": CountryCode{
+		"MY": {
 			Name:        "Malaysia",
 			Alpha2:      "MY",
 			Alpha3:      "MYS",
@@ -2437,7 +2437,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#MZ">MZ</a>, MOZ, 508,
 		 * Officially assigned]
 		 */
-		"MZ": CountryCode{
+		"MZ": {
 			Name:        "Mozambique",
 			Alpha2:      "MZ",
 			Alpha3:      "MOZ",
@@ -2451,7 +2451,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NA">NA</a>, NAM, 516,
 		 * Officially assigned]
 		 */
-		"NA": CountryCode{
+		"NA": {
 			Name:        "Namibia",
 			Alpha2:      "NA",
 			Alpha3:      "NAM",
@@ -2465,7 +2465,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NC">NC</a>, NCL, 540,
 		 * Officially assigned]
 		 */
-		"NC": CountryCode{
+		"NC": {
 			Name:        "New Caledonia",
 			Alpha2:      "NC",
 			Alpha3:      "NCL",
@@ -2479,7 +2479,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NE">NE</a>, NER, 562,
 		 * Officially assigned]
 		 */
-		"NE": CountryCode{
+		"NE": {
 			Name:        "Niger",
 			Alpha2:      "NE",
 			Alpha3:      "NER",
@@ -2493,7 +2493,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NF">NF</a>, NFK, 574,
 		 * Officially assigned]
 		 */
-		"NF": CountryCode{
+		"NF": {
 			Name:        "Norfolk Island",
 			Alpha2:      "NF",
 			Alpha3:      "NFK",
@@ -2507,7 +2507,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NG">NG</a>, NGA, 566,
 		 * Officially assigned]
 		 */
-		"NG": CountryCode{
+		"NG": {
 			Name:        "Nigeria",
 			Alpha2:      "NG",
 			Alpha3:      "NGA",
@@ -2521,7 +2521,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NI">NI</a>, NIC, 558,
 		 * Officially assigned]
 		 */
-		"NI": CountryCode{
+		"NI": {
 			Name:        "Nicaragua",
 			Alpha2:      "NI",
 			Alpha3:      "NIC",
@@ -2535,7 +2535,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NL">NL</a>, NLD, 528,
 		 * Officially assigned]
 		 */
-		"NL": CountryCode{
+		"NL": {
 			Name:        "Netherlands",
 			Alpha2:      "NL",
 			Alpha3:      "NLD",
@@ -2549,7 +2549,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NO">NO</a>, NOR, 578,
 		 * Officially assigned]
 		 */
-		"NO": CountryCode{
+		"NO": {
 			Name:        "Norway",
 			Alpha2:      "NO",
 			Alpha3:      "NOR",
@@ -2563,7 +2563,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NP">NP</a>, NPL, 524,
 		 * Officially assigned]
 		 */
-		"NP": CountryCode{
+		"NP": {
 			Name:        "Nepal",
 			Alpha2:      "NP",
 			Alpha3:      "NPL",
@@ -2577,7 +2577,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NR">NR</a>, NRU, 520,
 		 * Officially assigned]
 		 */
-		"NR": CountryCode{
+		"NR": {
 			Name:        "Nauru",
 			Alpha2:      "NR",
 			Alpha3:      "NRU",
@@ -2591,7 +2591,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NT">NT</a>, NTHH, 536,
 		 * Traditionally reserved]
 		 */
-		"NT": CountryCode{
+		"NT": {
 			Name:        "Neutral Zone",
 			Alpha2:      "NT",
 			Alpha3:      "NTHH",
@@ -2605,7 +2605,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NU">NU</a>, NIU, 570,
 		 * Officially assigned]
 		 */
-		"NU": CountryCode{
+		"NU": {
 			Name:        "Niue",
 			Alpha2:      "NU",
 			Alpha3:      "NIU",
@@ -2619,7 +2619,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#NZ">NZ</a>, NZL, 554,
 		 * Officially assigned]
 		 */
-		"NZ": CountryCode{
+		"NZ": {
 			Name:        "New Zealand",
 			Alpha2:      "NZ",
 			Alpha3:      "NZL",
@@ -2633,7 +2633,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#OM">OM</a>, OMN, 512,
 		 * Officially assigned]
 		 */
-		"OM": CountryCode{
+		"OM": {
 			Name:        "Oman",
 			Alpha2:      "OM",
 			Alpha3:      "OMN",
@@ -2647,7 +2647,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PA">PA</a>, PAN, 591,
 		 * Officially assigned]
 		 */
-		"PA": CountryCode{
+		"PA": {
 			Name:        "Panama",
 			Alpha2:      "PA",
 			Alpha3:      "PAN",
@@ -2661,7 +2661,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PE">PE</a>, PER, 604,
 		 * Officially assigned]
 		 */
-		"PE": CountryCode{
+		"PE": {
 			Name:        "Peru",
 			Alpha2:      "PE",
 			Alpha3:      "PER",
@@ -2675,7 +2675,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PF">PF</a>, PYF, 258,
 		 * Officially assigned]
 		 */
-		"PF": CountryCode{
+		"PF": {
 			Name:        "French Polynesia",
 			Alpha2:      "PF",
 			Alpha3:      "PYF",
@@ -2689,7 +2689,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PG">PG</a>, PNG, 598,
 		 * Officially assigned]
 		 */
-		"PG": CountryCode{
+		"PG": {
 			Name:        "Papua New Guinea",
 			Alpha2:      "PG",
 			Alpha3:      "PNG",
@@ -2703,7 +2703,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PH">PH</a>, PHL, 608,
 		 * Officially assigned]
 		 */
-		"PH": CountryCode{
+		"PH": {
 			Name:        "Philippines",
 			Alpha2:      "PH",
 			Alpha3:      "PHL",
@@ -2717,7 +2717,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PK">PK</a>, PAK, 586,
 		 * Officially assigned]
 		 */
-		"PK": CountryCode{
+		"PK": {
 			Name:        "Pakistan",
 			Alpha2:      "PK",
 			Alpha3:      "PAK",
@@ -2731,7 +2731,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PL">PL</a>, POL, 616,
 		 * Officially assigned]
 		 */
-		"PL": CountryCode{
+		"PL": {
 			Name:        "Poland",
 			Alpha2:      "PL",
 			Alpha3:      "POL",
@@ -2745,7 +2745,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PM">PM</a>, SPM, 666,
 		 * Officially assigned]
 		 */
-		"PM": CountryCode{
+		"PM": {
 			Name:        "Saint Pierre and Miquelon",
 			Alpha2:      "PM",
 			Alpha3:      "SPM",
@@ -2759,7 +2759,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PN">PN</a>, PCN, 612,
 		 * Officially assigned]
 		 */
-		"PN": CountryCode{
+		"PN": {
 			Name:        "Pitcairn",
 			Alpha2:      "PN",
 			Alpha3:      "PCN",
@@ -2773,7 +2773,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PR">PR</a>, PRI, 630,
 		 * Officially assigned]
 		 */
-		"PR": CountryCode{
+		"PR": {
 			Name:        "Puerto Rico",
 			Alpha2:      "PR",
 			Alpha3:      "PRI",
@@ -2787,7 +2787,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PS">PS</a>, PSE, 275,
 		 * Officially assigned]
 		 */
-		"PS": CountryCode{
+		"PS": {
 			Name:        "Palestine, State of",
 			Alpha2:      "PS",
 			Alpha3:      "PSE",
@@ -2801,7 +2801,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PT">PT</a>, PRT, 620,
 		 * Officially assigned]
 		 */
-		"PT": CountryCode{
+		"PT": {
 			Name:        "Portugal",
 			Alpha2:      "PT",
 			Alpha3:      "PRT",
@@ -2815,7 +2815,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PW">PW</a>, PLW, 585,
 		 * Officially assigned]
 		 */
-		"PW": CountryCode{
+		"PW": {
 			Name:        "Palau",
 			Alpha2:      "PW",
 			Alpha3:      "PLW",
@@ -2829,7 +2829,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#PY">PY</a>, PRY, 600,
 		 * Officially assigned]
 		 */
-		"PY": CountryCode{
+		"PY": {
 			Name:        "Paraguay",
 			Alpha2:      "PY",
 			Alpha3:      "PRY",
@@ -2843,7 +2843,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#QA">QA</a>, QAT, 634,
 		 * Officially assigned]
 		 */
-		"QA": CountryCode{
+		"QA": {
 			Name:        "Qatar",
 			Alpha2:      "QA",
 			Alpha3:      "QAT",
@@ -2857,7 +2857,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#RE">RE</a>, REU, 638,
 		 * Officially assigned]
 		 */
-		"RE": CountryCode{
+		"RE": {
 			Name:        "R\u00E9union",
 			Alpha2:      "RE",
 			Alpha3:      "REU",
@@ -2871,7 +2871,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#RO">RO</a>, ROU, 642,
 		 * Officially assigned]
 		 */
-		"RO": CountryCode{
+		"RO": {
 			Name:        "Romania",
 			Alpha2:      "RO",
 			Alpha3:      "ROU",
@@ -2885,7 +2885,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#RS">RS</a>, SRB, 688,
 		 * Officially assigned]
 		 */
-		"RS": CountryCode{
+		"RS": {
 			Name:        "Serbia",
 			Alpha2:      "RS",
 			Alpha3:      "SRB",
@@ -2899,7 +2899,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#RU">RU</a>, RUS, 643,
 		 * Officially assigned]
 		 */
-		"RU": CountryCode{
+		"RU": {
 			Name:        "Russian Federation",
 			Alpha2:      "RU",
 			Alpha3:      "RUS",
@@ -2913,7 +2913,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#RW">RW</a>, RWA, 646,
 		 * Officially assigned]
 		 */
-		"RW": CountryCode{
+		"RW": {
 			Name:        "Rwanda",
 			Alpha2:      "RW",
 			Alpha3:      "RWA",
@@ -2927,7 +2927,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SA">SA</a>, SAU, 682,
 		 * Officially assigned]
 		 */
-		"SA": CountryCode{
+		"SA": {
 			Name:        "Saudi Arabia",
 			Alpha2:      "SA",
 			Alpha3:      "SAU",
@@ -2941,7 +2941,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SB">SB</a>, SLB, 90,
 		 * Officially assigned]
 		 */
-		"SB": CountryCode{
+		"SB": {
 			Name:        "Solomon Islands",
 			Alpha2:      "SB",
 			Alpha3:      "SLB",
@@ -2955,7 +2955,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SC">SC</a>, SYC, 690,
 		 * Officially assigned]
 		 */
-		"SC": CountryCode{
+		"SC": {
 			Name:        "Seychelles",
 			Alpha2:      "SC",
 			Alpha3:      "SYC",
@@ -2969,7 +2969,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SD">SD</a>, SDN, 729,
 		 * Officially assigned]
 		 */
-		"SD": CountryCode{
+		"SD": {
 			Name:        "Sudan",
 			Alpha2:      "SD",
 			Alpha3:      "SDN",
@@ -2983,7 +2983,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SE">SE</a>, SWE, 752,
 		 * Officially assigned]
 		 */
-		"SE": CountryCode{
+		"SE": {
 			Name:        "Sweden",
 			Alpha2:      "SE",
 			Alpha3:      "SWE",
@@ -2999,7 +2999,7 @@ func Init() {
 		 *
 		 * @see #FI
 		 */
-		"SF": CountryCode{
+		"SF": {
 			Name:        "Finland",
 			Alpha2:      "SF",
 			Alpha3:      "FIN",
@@ -3013,7 +3013,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SG">SG</a>, SGP, 702,
 		 * Officially assigned]
 		 */
-		"SG": CountryCode{
+		"SG": {
 			Name:        "Singapore",
 			Alpha2:      "SG",
 			Alpha3:      "SGP",
@@ -3027,7 +3027,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SH">SH</a>, SHN, 654,
 		 * Officially assigned]
 		 */
-		"SH": CountryCode{
+		"SH": {
 			Name:        "Saint Helena, Ascension and Tristan da Cunha",
 			Alpha2:      "SH",
 			Alpha3:      "SHN",
@@ -3041,7 +3041,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SI">SI</a>, SVN, 705,
 		 * Officially assigned]
 		 */
-		"SI": CountryCode{
+		"SI": {
 			Name:        "Slovenia",
 			Alpha2:      "SI",
 			Alpha3:      "SVN",
@@ -3055,7 +3055,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SJ">SJ</a>, SJM, 744,
 		 * Officially assigned]
 		 */
-		"SJ": CountryCode{
+		"SJ": {
 			Name:        "Svalbard and Jan Mayen",
 			Alpha2:      "SJ",
 			Alpha3:      "SJM",
@@ -3069,7 +3069,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SK">SK</a>, SVK, 703,
 		 * Officially assigned]
 		 */
-		"SK": CountryCode{
+		"SK": {
 			Name:        "Slovakia",
 			Alpha2:      "SK",
 			Alpha3:      "SVK",
@@ -3083,7 +3083,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SL">SL</a>, SLE, 694,
 		 * Officially assigned]
 		 */
-		"SL": CountryCode{
+		"SL": {
 			Name:        "Sierra Leone",
 			Alpha2:      "SL",
 			Alpha3:      "SLE",
@@ -3097,7 +3097,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SM">SM</a>, SMR, 674,
 		 * Officially assigned]
 		 */
-		"SM": CountryCode{
+		"SM": {
 			Name:        "San Marino",
 			Alpha2:      "SM",
 			Alpha3:      "SMR",
@@ -3111,7 +3111,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SN">SN</a>, SEN, 686,
 		 * Officially assigned]
 		 */
-		"SN": CountryCode{
+		"SN": {
 			Name:        "Senegal",
 			Alpha2:      "SN",
 			Alpha3:      "SEN",
@@ -3125,7 +3125,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SO">SO</a>, SOM, 706,
 		 * Officially assigned]
 		 */
-		"SO": CountryCode{
+		"SO": {
 			Name:        "Somalia",
 			Alpha2:      "SO",
 			Alpha3:      "SOM",
@@ -3139,7 +3139,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SR">SR</a>, SUR, 740,
 		 * Officially assigned]
 		 */
-		"SR": CountryCode{
+		"SR": {
 			Name:        "Suriname",
 			Alpha2:      "SR",
 			Alpha3:      "SUR",
@@ -3153,7 +3153,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SS">SS</a>, SSD, 728,
 		 * Officially assigned]
 		 */
-		"SS": CountryCode{
+		"SS": {
 			Name:        "South Sudan",
 			Alpha2:      "SS",
 			Alpha3:      "SSD",
@@ -3167,7 +3167,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ST">ST</a>, STP, 678,
 		 * Officially assigned]
 		 */
-		"ST": CountryCode{
+		"ST": {
 			Name:        "Sao Tome and Principe",
 			Alpha2:      "ST",
 			Alpha3:      "STP",
@@ -3181,7 +3181,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SU">SU</a>, SUN, -1,
 		 * Exceptionally reserved]
 		 */
-		"SU": CountryCode{
+		"SU": {
 			Name:        "USSR",
 			Alpha2:      "SU",
 			Alpha3:      "SUN",
@@ -3195,7 +3195,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SV">SV</a>, SLV, 222,
 		 * Officially assigned]
 		 */
-		"SV": CountryCode{
+		"SV": {
 			Name:        "El Salvador",
 			Alpha2:      "SV",
 			Alpha3:      "SLV",
@@ -3209,7 +3209,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SX">SX</a>, SXM, 534,
 		 * Officially assigned]
 		 */
-		"SX": CountryCode{
+		"SX": {
 			Name:        "Sint Maarten (Dutch part)",
 			Alpha2:      "SX",
 			Alpha3:      "SXM",
@@ -3223,7 +3223,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SY">SY</a>, SYR, 760,
 		 * Officially assigned]
 		 */
-		"SY": CountryCode{
+		"SY": {
 			Name:        "Syrian Arab Republic",
 			Alpha2:      "SY",
 			Alpha3:      "SYR",
@@ -3237,7 +3237,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#SZ">SZ</a>, SWZ, 748,
 		 * Officially assigned]
 		 */
-		"SZ": CountryCode{
+		"SZ": {
 			Name:        "Swaziland",
 			Alpha2:      "SZ",
 			Alpha3:      "SWZ",
@@ -3251,7 +3251,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TA">TA</a>, TAA, -1,
 		 * Exceptionally reserved.
 		 */
-		"TA": CountryCode{
+		"TA": {
 			Name:        "Tristan da Cunha",
 			Alpha2:      "TA",
 			Alpha3:      "TAA",
@@ -3265,7 +3265,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TC">TC</a>, TCA, 796,
 		 * Officially assigned]
 		 */
-		"TC": CountryCode{
+		"TC": {
 			Name:        "Turks and Caicos Islands",
 			Alpha2:      "TC",
 			Alpha3:      "TCA",
@@ -3279,7 +3279,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TD">TD</a>, TCD, 148,
 		 * Officially assigned]
 		 */
-		"TD": CountryCode{
+		"TD": {
 			Name:        "Chad",
 			Alpha2:      "TD",
 			Alpha3:      "TCD",
@@ -3293,7 +3293,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TF">TF</a>, ATF, 260,
 		 * Officially assigned]
 		 */
-		"TF": CountryCode{
+		"TF": {
 			Name:        "French Southern Territories",
 			Alpha2:      "TF",
 			Alpha3:      "ATF",
@@ -3307,7 +3307,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TG">TG</a>, TGO, 768,
 		 * Officially assigned]
 		 */
-		"TG": CountryCode{
+		"TG": {
 			Name:        "Togo",
 			Alpha2:      "TG",
 			Alpha3:      "TGO",
@@ -3321,7 +3321,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TH">TH</a>, THA, 764,
 		 * Officially assigned]
 		 */
-		"TH": CountryCode{
+		"TH": {
 			Name:        "Thailand",
 			Alpha2:      "TH",
 			Alpha3:      "THA",
@@ -3335,7 +3335,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TJ">TJ</a>, TJK, 762,
 		 * Officially assigned]
 		 */
-		"TJ": CountryCode{
+		"TJ": {
 			Name:        "Tajikistan",
 			Alpha2:      "TJ",
 			Alpha3:      "TJK",
@@ -3349,7 +3349,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TK">TK</a>, TKL, 772,
 		 * Officially assigned]
 		 */
-		"TK": CountryCode{
+		"TK": {
 			Name:        "Tokelau",
 			Alpha2:      "TK",
 			Alpha3:      "TKL",
@@ -3363,7 +3363,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TL">TL</a>, TLS, 626,
 		 * Officially assigned]
 		 */
-		"TL": CountryCode{
+		"TL": {
 			Name:        "Timor-Leste",
 			Alpha2:      "TL",
 			Alpha3:      "TLS",
@@ -3377,7 +3377,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TM">TM</a>, TKM, 795,
 		 * Officially assigned]
 		 */
-		"TM": CountryCode{
+		"TM": {
 			Name:        "Turkmenistan",
 			Alpha2:      "TM",
 			Alpha3:      "TKM",
@@ -3391,7 +3391,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TN">TN</a>, TUN, 788,
 		 * Officially assigned]
 		 */
-		"TN": CountryCode{
+		"TN": {
 			Name:        "Tunisia",
 			Alpha2:      "TN",
 			Alpha3:      "TUN",
@@ -3405,7 +3405,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TO">TO</a>, TON, 776,
 		 * Officially assigned]
 		 */
-		"TO": CountryCode{
+		"TO": {
 			Name:        "Tonga",
 			Alpha2:      "TO",
 			Alpha3:      "TON",
@@ -3423,7 +3423,7 @@ func Init() {
 		 * ISO 3166-1 numeric code is unknown.
 		 * </p>
 		 */
-		"TP": CountryCode{
+		"TP": {
 			Name:        "East Timor",
 			Alpha2:      "TP",
 			Alpha3:      "TPTL",
@@ -3437,7 +3437,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TR">TR</a>, TUR, 792,
 		 * Officially assigned]
 		 */
-		"TR": CountryCode{
+		"TR": {
 			Name:        "Turkey",
 			Alpha2:      "TR",
 			Alpha3:      "TUR",
@@ -3451,7 +3451,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TT">TT</a>, TTO, 780,
 		 * Officially assigned]
 		 */
-		"TT": CountryCode{
+		"TT": {
 			Name:        "Trinidad and Tobago",
 			Alpha2:      "TT",
 			Alpha3:      "TTO",
@@ -3465,7 +3465,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TV">TV</a>, TUV, 798,
 		 * Officially assigned]
 		 */
-		"TV": CountryCode{
+		"TV": {
 			Name:        "Tuvalu",
 			Alpha2:      "TV",
 			Alpha3:      "TUV",
@@ -3479,7 +3479,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TW">TW</a>, TWN, 158,
 		 * Officially assigned]
 		 */
-		"TW": CountryCode{
+		"TW": {
 			Name:        "Taiwan, Province of China",
 			Alpha2:      "TW",
 			Alpha3:      "TWN",
@@ -3493,7 +3493,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#TZ">TZ</a>, TZA, 834,
 		 * Officially assigned]
 		 */
-		"TZ": CountryCode{
+		"TZ": {
 			Name:        "Tanzania, United Republic of",
 			Alpha2:      "TZ",
 			Alpha3:      "TZA",
@@ -3507,7 +3507,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#UA">UA</a>, UKR, 804,
 		 * Officially assigned]
 		 */
-		"UA": CountryCode{
+		"UA": {
 			Name:        "Ukraine",
 			Alpha2:      "UA",
 			Alpha3:      "UKR",
@@ -3521,7 +3521,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#UG">UG</a>, UGA, 800,
 		 * Officially assigned]
 		 */
-		"UG": CountryCode{
+		"UG": {
 			Name:        "Uganda",
 			Alpha2:      "UG",
 			Alpha3:      "UGA",
@@ -3535,7 +3535,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#UK">UK</a>, null, -1,
 		 * Exceptionally reserved]
 		 */
-		"UK": CountryCode{
+		"UK": {
 			Name:        "United Kingdom",
 			Alpha2:      "UK",
 			Alpha3:      "",
@@ -3548,7 +3548,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#UM">UM</a>, UMI, 581,
 		 * Officially assigned]
 		 */
-		"UM": CountryCode{
+		"UM": {
 			Name:        "United States Minor Outlying Islands",
 			Alpha2:      "UM",
 			Alpha3:      "UMI",
@@ -3562,7 +3562,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#US">US</a>, USA, 840,
 		 * Officially assigned]
 		 */
-		"US": CountryCode{
+		"US": {
 			Name:        "United States",
 			Alpha2:      "US",
 			Alpha3:      "USA",
@@ -3575,7 +3575,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#UY">UY</a>, URY, 858,
 		 * Officially assigned]
 		 */
-		"UY": CountryCode{
+		"UY": {
 			Name:        "Uruguay",
 			Alpha2:      "UY",
 			Alpha3:      "URY",
@@ -3589,7 +3589,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#UZ">UZ</a>, UZB, 860,
 		 * Officially assigned]
 		 */
-		"UZ": CountryCode{
+		"UZ": {
 			Name:        "Uzbekistan",
 			Alpha2:      "UZ",
 			Alpha3:      "UZB",
@@ -3603,7 +3603,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#VA">VA</a>, VAT, 336,
 		 * Officially assigned]
 		 */
-		"VA": CountryCode{
+		"VA": {
 			Name:        "Holy See (Vatican City State)",
 			Alpha2:      "VA",
 			Alpha3:      "VAT",
@@ -3617,7 +3617,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#VC">VC</a>, VCT, 670,
 		 * Officially assigned]
 		 */
-		"VC": CountryCode{
+		"VC": {
 			Name:        "Saint Vincent and the Grenadines",
 			Alpha2:      "VC",
 			Alpha3:      "VCT",
@@ -3631,7 +3631,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#VE">VE</a>, VEN, 862,
 		 * Officially assigned]
 		 */
-		"VE": CountryCode{
+		"VE": {
 			Name:        "Venezuela, Bolivarian Republic of",
 			Alpha2:      "VE",
 			Alpha3:      "VEN",
@@ -3646,7 +3646,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#VG">VG</a>, VGB, 92,
 		 * Officially assigned]
 		 */
-		"VG": CountryCode{
+		"VG": {
 			Name:        "Virgin Islands, British",
 			Alpha2:      "VG",
 			Alpha3:      "VGB",
@@ -3660,7 +3660,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#VI">VI</a>, VIR, 850,
 		 * Officially assigned]
 		 */
-		"VI": CountryCode{
+		"VI": {
 			Name:        "Virgin Islands, U.S.",
 			Alpha2:      "VI",
 			Alpha3:      "VIR",
@@ -3674,7 +3674,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#VN">VN</a>, VNM, 704,
 		 * Officially assigned]
 		 */
-		"VN": CountryCode{
+		"VN": {
 			Name:        "Viet Nam",
 			Alpha2:      "VN",
 			Alpha3:      "VNM",
@@ -3688,7 +3688,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#VU">VU</a>, VUT, 548,
 		 * Officially assigned]
 		 */
-		"VU": CountryCode{
+		"VU": {
 			Name:        "Vanuatu",
 			Alpha2:      "VU",
 			Alpha3:      "VUT",
@@ -3702,7 +3702,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#WF">WF</a>, WLF, 876,
 		 * Officially assigned]
 		 */
-		"WF": CountryCode{
+		"WF": {
 			Name:        "Wallis and Futuna",
 			Alpha2:      "WF",
 			Alpha3:      "WLF",
@@ -3716,7 +3716,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#WS">WS</a>, WSM, 882,
 		 * Officially assigned]
 		 */
-		"WS": CountryCode{
+		"WS": {
 			Name:        "Samoa",
 			Alpha2:      "WS",
 			Alpha3:      "WSM",
@@ -3730,7 +3730,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#XK">XK</a>, XXK, -1,
 		 * User assigned]
 		 */
-		"XK": CountryCode{
+		"XK": {
 			Name:        "Kosovo, Republic of",
 			Alpha2:      "XK",
 			Alpha3:      "XXK",
@@ -3744,7 +3744,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#YE">YE</a>, YEM, 887,
 		 * Officially assigned]
 		 */
-		"YE": CountryCode{
+		"YE": {
 			Name:        "Yemen",
 			Alpha2:      "YE",
 			Alpha3:      "YEM",
@@ -3758,7 +3758,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#YT">YT</a>, MYT, 175,
 		 * Officially assigned]
 		 */
-		"YT": CountryCode{
+		"YT": {
 			Name:        "Mayotte",
 			Alpha2:      "YT",
 			Alpha3:      "MYT",
@@ -3772,7 +3772,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#YU">YU</a>, YUCS, 890,
 		 * Traditionally reserved]
 		 */
-		"YU": CountryCode{
+		"YU": {
 			Name:        "Yugoslavia",
 			Alpha2:      "YU",
 			Alpha3:      "YUCS",
@@ -3786,7 +3786,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ZA">ZA</a>, ZAF, 710,
 		 * Officially assigned]
 		 */
-		"ZA": CountryCode{
+		"ZA": {
 			Name:        "South Africa",
 			Alpha2:      "ZA",
 			Alpha3:      "ZAF",
@@ -3800,7 +3800,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ZM">ZM</a>, ZMB, 894,
 		 * Officially assigned]
 		 */
-		"ZM": CountryCode{
+		"ZM": {
 			Name:        "Zambia",
 			Alpha2:      "ZM",
 			Alpha3:      "ZMB",
@@ -3818,7 +3818,7 @@ func Init() {
 		 * ISO 3166-1 numeric code is unknown.
 		 * </p>
 		 */
-		"ZR": CountryCode{
+		"ZR": {
 			Name:        "Zaire",
 			Alpha2:      "ZR",
 			Alpha3:      "ZRCD",
@@ -3832,7 +3832,7 @@ func Init() {
 		 * [<a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#ZW">ZW</a>, ZWE, 716,
 		 * Officially assigned]
 		 */
-		"ZW": CountryCode{
+		"ZW": {
 			Name:        "Zimbabwe",
 			Alpha2:      "ZW",
 			Alpha3:      "ZWE",
