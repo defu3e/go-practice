@@ -6,17 +6,17 @@ import (
 )
 
 var (
-	smsFile,
-	voiceFile,
-	emailFile,
-	billingFile string
+	SmsFile,
+	VoiceFile,
+	EmailFile,
+	BillingFile string
 )
 
-func init () {
+func Init () {
 	countrycodes.Init()
-	
-	smsFile = config.GoDotEnvVariable("SMS_FILE_PATH") 
-	voiceFile = config.GoDotEnvVariable("VOICE_FILE_PATH")
-	emailFile = config.GoDotEnvVariable("EMAIL_FILE_PATH")
-	billingFile = config.GoDotEnvVariable("BILLING_FILE_PATH")
+
+	SmsFile = config.GoDotEnvVariable("SMS_FILE_PATH")
+	VoiceFile = config.GoDotEnvVariable("VOICE_FILE_PATH")
+	EmailFile = config.GoDotEnvVariable("EMAIL_FILE_PATH")
+	BillingFile = config.GoDotEnvVariable("BILLING_FILE_PATH")
 }
