@@ -23,6 +23,21 @@ var (
 			"E-Voice": {},
 			"JustPhone": {},
 		},
+		"MAIL": {
+			"Gmail" :{},
+			"Yahoo" :{},
+			"Hotmail":{},
+			"MSN":{},
+			"Orange":{},
+			"Comcast":{},
+			"AOL":{},
+			"Live":{},
+			"RediffMail":{},
+			"GMX":{},
+			"Protonmail":{},
+			"Yandex":{},
+			"Mail.ru":{},
+		},
 	}
 )
  
