@@ -41,23 +41,21 @@ func GetEmailData (srcFilePath string) []EmailData {
 }
 
 func validateRow(s string) error {
-    // check if string has delimeter
-   	if !functions.IsCorrectParts(s, constants.EMAIL_ITEM_LEN - 1) {
+   	if !functions.IsCorrectParts(s, constants.EMAIL_ITEM_LEN) {
 		return fmt.Errorf("required delimiters not found") 
 	}
 
     var (
         fields   = strings.Split(s, ";")
         a2       = fields[0]
-        provider = fields[3]
+        provider = fields[1]
     )
 
     if !functions.IsValidCountryCode(a2) {
         return fmt.Errorf("string has incorrect country aplha2 code")
     }
 
-    // validate provider
-    if !functions.IsValidProvider(provider, "SMS") {
+    if !functions.IsValidProvider(provider, "EMAIL") {
         return fmt.Errorf("string has incorrect provider name")
     }
 

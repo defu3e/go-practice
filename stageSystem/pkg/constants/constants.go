@@ -23,7 +23,7 @@ var (
 			"E-Voice": {},
 			"JustPhone": {},
 		},
-		"MAIL": {
+		"EMAIL": {
 			"Gmail" :{},
 			"Yahoo" :{},
 			"Hotmail":{},
