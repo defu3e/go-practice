@@ -3,6 +3,7 @@ package functions
 import (
 	"stageSystem/pkg/constants"
 	"stageSystem/pkg/countrycodes"
+	"strings"
 )
 
 func RemoveFromSlice[T comparable](slice []T, s int) []T {
@@ -16,5 +17,10 @@ func IsValidCountryCode (code string) bool {
 
 func IsValidProvider (provider string, tp string) bool {
     _, ok := constants.PROVIDERS[tp][provider]
+    return ok
+}
+
+func IsCorrectParts (s string, n int) bool {
+    ok := strings.Count(s, ";") == (n - 1)
     return ok
 }
