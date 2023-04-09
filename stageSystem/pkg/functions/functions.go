@@ -21,6 +21,5 @@ func IsValidProvider (provider string, tp string) bool {
 }
 
 func IsCorrectParts (s string, n int) bool {
-    ok := strings.Count(s, ";") == (n - 1)
-    return ok
+    return strings.Count(s, ";") == (n - 1)
 }
