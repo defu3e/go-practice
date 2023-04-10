@@ -23,11 +23,14 @@ func init () {
 }
 
 func GetSupportData () []SupportData {
+
+	log.Println("\n=== Getting support data ===")
 	var res []SupportData
 
     resp, err := http.Get(supportApiUrl)
     if err != nil {
         log.Println("error making http request:", err)
+		return res
     }
     defer resp.Body.Close()
     if resp.StatusCode != http.StatusOK {
