@@ -22,7 +22,7 @@ func init () {
     supportApiUrl = config.GoDotEnvVariable("SUPPORT_API_URL") 
 }
 
-func GetSupportDatra () []SupportData {
+func GetSupportData () []SupportData {
 	var res []SupportData
 
     resp, err := http.Get(supportApiUrl)
