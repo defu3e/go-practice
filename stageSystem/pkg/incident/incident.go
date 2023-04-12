@@ -2,13 +2,14 @@ package incident
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
 )
 
 func GetIncedents () []IncidentData {
-	log.Println("\n=== Getting incidents data ===")
+	fmt.Println("\n=== Getting incidents data ===")
 	var res []IncidentData
 
     resp, err := http.Get(incidentApiUrl)
