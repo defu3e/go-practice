@@ -2,29 +2,16 @@ package support
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
-	"stageSystem/config"
 )
 
-
-type SupportData struct { 
-	Topic string `json:"topic"` 
-	ActiveTickets int `json:"active_tickets"` 
- } 
-
- var (
-    supportApiUrl string
-)
-
-func init () {
-    supportApiUrl = config.GoDotEnvVariable("SUPPORT_API_URL") 
-}
 
 func GetSupportData () []SupportData {
 
-	log.Println("\n=== Getting support data ===")
+	fmt.Println("\n=== Getting support data ===")
 	var res []SupportData
 
     resp, err := http.Get(supportApiUrl)
@@ -33,6 +20,7 @@ func GetSupportData () []SupportData {
 		return res
     }
     defer resp.Body.Close()
+    
     if resp.StatusCode != http.StatusOK {
         log.Println("non-OK response HTTP status: ", resp.StatusCode)
     }

@@ -1,26 +1,18 @@
 package billing
 
 import (
+	"fmt"
 	"io/ioutil"
-	"log"
+	"stageSystem/pkg/constants"
+	"stageSystem/pkg/functions"
 	"strconv"
 )
 
-type BillingData struct { 
-	CreateCustomer bool 
-	Purchase bool 
-	Payout bool 
-	Recurring bool 
-	FraudControl bool 
-	CheckoutPage bool 
- } 
-
-func GetBillingData (srcFilePath string) BillingData  {
-	log.Println("\n=== Getting email data ===")
-    str, err := ioutil.ReadFile(srcFilePath)
-    if err != nil {
-        log.Fatal(err)
-	}
+func GetBillingData () BillingData  {
+	fmt.Println("\n=== Getting email data ===")
+	
+    str, err := ioutil.ReadFile(billingFile)
+    functions.CheckErr(err, constants.ERR_FATAL_MODE)
 
 	mask := getMaskNumb(str)
 	

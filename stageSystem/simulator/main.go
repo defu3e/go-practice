@@ -35,7 +35,7 @@ const minEmailDeliveryTime = 0
 const maxEmailDeliveryTime = 600
 
 const smsFilename = "sms.data"
-const mmsApiUrl = "http://localhost:8282/mms" // to params
+const mmsApiUrl = "http://localhost:8282/mms"
 const voiceFilename = "voice.data"
 const emailFilename = "email.data"
 const billingFilename = "billing.data"
@@ -283,7 +283,7 @@ func shuffleAccendentData() []AccendentItem {
 
 		collection = append(collection, AccendentItem{Topic: topic, Status: status})
 	}
-
+	
 	return collection
 }
 

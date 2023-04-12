@@ -5,31 +5,16 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"stageSystem/config"
+	"stageSystem/pkg/constants"
 	"stageSystem/pkg/functions"
 )
 
-type MMSData struct {  
-    Country string `json:"country"` 
-    Provider string `json:"provider"` 
-    Bandwidth string `json:"bandwidth"` 
-    ResponseTime string `json:"response_time"` 
-} 
-
-var (
-    mmsApiUrl string
-)
-
-func init () {
-    mmsApiUrl = config.GoDotEnvVariable("MMS_API_URL") 
-}
-
 func GetMmsStatus () []MMSData {
     resp, err := http.Get(mmsApiUrl)
-    if err != nil {
-        log.Fatalln("error making http request:", err)
-    }
+    functions.CheckErr(err, constants.ERR_FATAL_MODE)
+    
     defer resp.Body.Close()
+    
     if resp.StatusCode != http.StatusOK {
         log.Fatal("non-OK response HTTP status: ", resp.StatusCode)
     }
@@ -64,4 +49,3 @@ func filterData (data *[]MMSData) {
         }
     }
 }
-
