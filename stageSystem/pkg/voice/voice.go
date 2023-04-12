@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"stageSystem/pkg/constants"
+	"stageSystem/pkg/functions"
 	"strings"
 )
 
 func GetVoiceData() []VoiceData {
-    fmt.Println("\n=== Getting voice data ===")
+    fmt.Println("=== Getting voice data ===")
     content, err := ioutil.ReadFile(voiceFile)
-    if err != nil {
-        log.Fatal(err)
-    }
+    functions.CheckErr(err, constants.ERR_FATAL_MODE)
 
     rows := strings.Split(string(content), "\n")
     res := []VoiceData{}

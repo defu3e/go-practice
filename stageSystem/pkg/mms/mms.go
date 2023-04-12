@@ -2,6 +2,7 @@ package mms
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -10,6 +11,8 @@ import (
 )
 
 func GetMmsStatus () []MMSData {
+    fmt.Println("=== Getting mms data ===")
+
     resp, err := http.Get(mmsApiUrl)
     functions.CheckErr(err, constants.ERR_FATAL_MODE)
     

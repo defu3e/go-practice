@@ -10,7 +10,7 @@ import (
 )
 
 func GetEmailData () []EmailData {
-	fmt.Println("\n=== Getting email data ===")
+	fmt.Println("=== Getting email data ===")
 
     content, err := ioutil.ReadFile(emailFile)
     functions.CheckErr(err, constants.ERR_FATAL_MODE)

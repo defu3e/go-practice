@@ -9,7 +9,7 @@ import (
 )
 
 func GetBillingData () BillingData  {
-	fmt.Println("\n=== Getting email data ===")
+	fmt.Println("=== Getting billing data ===")
 	
     str, err := ioutil.ReadFile(billingFile)
     functions.CheckErr(err, constants.ERR_FATAL_MODE)

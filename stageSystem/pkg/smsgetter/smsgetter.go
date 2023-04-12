@@ -14,7 +14,7 @@ var (
 )
 
 func GetSmsData() []SMSData {
-    fmt.Println("Getting sms data...")
+    fmt.Println("=== Getting sms data ===")
     
     content, err := ioutil.ReadFile(smsFile) 
 

@@ -11,7 +11,7 @@ import (
 
 func GetSupportData () []SupportData {
 
-	fmt.Println("\n=== Getting support data ===")
+	fmt.Println("=== Getting support data ===")
 	var res []SupportData
 
     resp, err := http.Get(supportApiUrl)
@@ -30,7 +30,6 @@ func GetSupportData () []SupportData {
         log.Println(err)
     }
 
-    
     if err := json.Unmarshal(bytes, &res); err != nil {  
         log.Println("Can not unmarshal JSON", err)
     }

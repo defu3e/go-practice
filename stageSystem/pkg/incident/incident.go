@@ -6,10 +6,12 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"stageSystem/pkg/constants"
+	"stageSystem/pkg/functions"
 )
 
 func GetIncedents () []IncidentData {
-	fmt.Println("\n=== Getting incidents data ===")
+	fmt.Println("=== Getting incidents data ===")
 	var res []IncidentData
 
     resp, err := http.Get(incidentApiUrl)
@@ -24,9 +26,7 @@ func GetIncedents () []IncidentData {
     }
 
     bytes, err := ioutil.ReadAll(resp.Body)
-    if err != nil {
-        log.Println(err)
-    }
+    functions.CheckErr(err, constants.ERR_INFO_MODE)
     
     if err := json.Unmarshal(bytes, &res); err != nil {  
         log.Println("Can not unmarshal JSON", err)
