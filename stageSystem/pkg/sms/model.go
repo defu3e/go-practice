@@ -1,4 +1,4 @@
-package smsgetter
+package sms
 
 type SMSData struct { 
     Сountry 	 string `json:"country"` 

@@ -13,7 +13,7 @@ import (
 	"stageSystem/pkg/functions"
 	"stageSystem/pkg/incident"
 	"stageSystem/pkg/mms"
-	"stageSystem/pkg/smsgetter"
+	"stageSystem/pkg/sms"
 	"stageSystem/pkg/support"
 	"stageSystem/pkg/voice"
 
@@ -21,7 +21,7 @@ import (
 )
 
 type ResultSetT struct {
-	SMS       [][]smsgetter.SMSData             `json:"sms"`
+	SMS       [][]sms.SMSData             `json:"sms"`
 	MMS       [][]mms.MMSData              		`json:"mms"`
 	VoiceCall []voice.VoiceData          		`json:"voice_call"`
 	Email     map[string][][]email.EmailData 	`json:"email"`
@@ -71,8 +71,8 @@ func handleApi(w http.ResponseWriter, r *http.Request) {
 }
 
 func getResultData() (res ResultSetT) {
-	smsData := smsgetter.GetSmsData()
-	res.SMS = smsgetter.PrepareSmsData(smsData)
+	smsData := sms.GetSmsData()
+	res.SMS = sms.PrepareSmsData(smsData)
 
 	mmsData := mms.GetMmsStatus()
 	res.MMS = mms.PrepareMmsData(mmsData)
