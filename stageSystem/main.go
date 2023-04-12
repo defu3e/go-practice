@@ -21,13 +21,13 @@ import (
 )
 
 type ResultSetT struct {
-	SMS       [][]sms.SMSData             `json:"sms"`
-	MMS       [][]mms.MMSData              		`json:"mms"`
-	VoiceCall []voice.VoiceData          		`json:"voice_call"`
-	Email     map[string][][]email.EmailData 	`json:"email"`
-	Billing   billing.BillingData               `json:"billing"`
-	Support   []int                    			`json:"support"`
-	Incidents []incident.IncidentData           `json:"incident"`
+	SMS       [][]sms.SMSData					`json:"sms"`
+	MMS       [][]mms.MMSData					`json:"mms"`
+	VoiceCall []voice.VoiceData					`json:"voice_call"`
+	Email     map[string][][]email.EmailData	`json:"email"`
+	Billing   billing.BillingData				`json:"billing"`
+	Support   []int								`json:"support"`
+	Incidents []incident.IncidentData			`json:"incident"`
 }
 
 type ResultT struct {
