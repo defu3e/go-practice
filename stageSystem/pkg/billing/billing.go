@@ -24,7 +24,6 @@ func GetBillingData () BillingData  {
 		FraudControl: isActiveBit(mask,5),
 		CheckoutPage: isActiveBit(mask,6),
 	}
-
 }
 
 func getMaskNumb (s []byte) (mask uint8) {
@@ -40,4 +39,3 @@ func getMaskNumb (s []byte) (mask uint8) {
 func isActiveBit (n uint8, m uint8) bool {
 	return (n >> (m-1)) & 1 == 1;
 }
-
