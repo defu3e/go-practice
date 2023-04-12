@@ -1,7 +1,6 @@
 package email
 
 import (
-	"fmt"
 	"sort"
 	"strconv"
 )
@@ -47,7 +46,6 @@ func PrepareEmailData (em []EmailData) (m map[string][][]EmailData) {
 		case 2:
 			if (len(m[c][1]) < 3) {
 				m[c][1] = append (m[c][1], v)
-				fmt.Println(m[c])
 			} else {
 				m[c][1] = ShiftAppend (m[c][1], v)
 			}
