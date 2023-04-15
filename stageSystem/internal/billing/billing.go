@@ -3,8 +3,8 @@ package billing
 import (
 	"fmt"
 	"io/ioutil"
-	"stageSystem/pkg/constants"
-	"stageSystem/pkg/functions"
+	"stageSystem/internal/constants"
+	"stageSystem/internal/functions"
 	"strconv"
 )
 

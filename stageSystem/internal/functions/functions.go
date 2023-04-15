@@ -3,8 +3,8 @@ package functions
 import (
 	"log"
 	"os"
-	"stageSystem/pkg/constants"
-	"stageSystem/pkg/countrycodes"
+	"stageSystem/internal/constants"
+	"stageSystem/internal/countrycodes"
 	"strings"
 )
 

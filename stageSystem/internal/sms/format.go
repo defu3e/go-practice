@@ -1,16 +1,16 @@
-package mms
+package sms
 
 import (
 	"sort"
-	"stageSystem/pkg/countrycodes"
+	"stageSystem/internal/countrycodes"
 )
 
-func PrepareMmsData (sms []MMSData) [][]MMSData {
-	var res [][]MMSData
+func PrepareSmsData (sms []SMSData) [][]SMSData {
+	var res [][]SMSData
 
 	for i,v := range sms {
-		c,_ := countrycodes.GetByAlpha2(v.Country)
-		sms[i].Country = c.Name
+		c,_ := countrycodes.GetByAlpha2(v.Сountry)
+		sms[i].Сountry = c.Name
 	}
 
 	sort.Slice(sms, func(i, j int) bool {
@@ -19,7 +19,7 @@ func PrepareMmsData (sms []MMSData) [][]MMSData {
 	res = append(res, sms)
 	
 	sort.Slice(sms, func(i, j int) bool {
-		return sms[i].Country < sms[j].Country
+		return sms[i].Сountry < sms[j].Сountry
 	})
 	res = append(res, sms)
 

@@ -2,8 +2,8 @@ package main
 
 import (
 	"stageSystem/config"
-	"stageSystem/pkg/connection"
-	"stageSystem/pkg/countrycodes"
+	"stageSystem/internal/connection"
+	"stageSystem/internal/countrycodes"
 )
 
 func main () {

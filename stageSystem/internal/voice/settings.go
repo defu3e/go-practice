@@ -2,7 +2,7 @@ package voice
 
 import (
 	"stageSystem/config"
-	"stageSystem/pkg/functions"
+	"stageSystem/internal/functions"
 )
 
 var (

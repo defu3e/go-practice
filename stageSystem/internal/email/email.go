@@ -1,21 +1,22 @@
-package voice
+package email
 
 import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"stageSystem/pkg/constants"
-	"stageSystem/pkg/functions"
+	"stageSystem/internal/constants"
+	"stageSystem/internal/functions"
 	"strings"
 )
 
-func GetVoiceData() []VoiceData {
-    fmt.Println("=== Getting voice data ===")
-    content, err := ioutil.ReadFile(voiceFile)
+func GetEmailData () []EmailData {
+	fmt.Println("=== Getting email data ===")
+
+    content, err := ioutil.ReadFile(emailFile)
     functions.CheckErr(err, constants.ERR_FATAL_MODE)
 
     rows := strings.Split(string(content), "\n")
-    res := []VoiceData{}
+    res := []EmailData{}
     
     for i, r := range rows {
         //log.Print("reading row: ", r)
@@ -25,7 +26,7 @@ func GetVoiceData() []VoiceData {
         } 
 		
         fields := strings.Split(r, ";")
-        res = append(res, FormatVoiceFields(fields))
+        res = append(res, formatEmailFields(fields))
     }
 	
     return res

@@ -1,6 +1,6 @@
 package support
 
-import "stageSystem/pkg/constants"
+import "stageSystem/internal/constants"
 
 func PrepareSupportData(data []SupportData) []int {
 	var (

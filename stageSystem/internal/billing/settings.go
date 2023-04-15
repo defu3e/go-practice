@@ -2,7 +2,7 @@ package billing
 
 import (
 	"stageSystem/config"
-	"stageSystem/pkg/functions"
+	"stageSystem/internal/functions"
 )
 
 var (

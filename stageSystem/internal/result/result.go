@@ -1,13 +1,13 @@
 package result
 
 import (
-	"stageSystem/pkg/billing"
-	"stageSystem/pkg/email"
-	"stageSystem/pkg/incident"
-	"stageSystem/pkg/mms"
-	"stageSystem/pkg/sms"
-	"stageSystem/pkg/support"
-	"stageSystem/pkg/voice"
+	"stageSystem/internal/billing"
+	"stageSystem/internal/email"
+	"stageSystem/internal/incident"
+	"stageSystem/internal/mms"
+	"stageSystem/internal/sms"
+	"stageSystem/internal/support"
+	"stageSystem/internal/voice"
 )
 
 type ResultSetT struct {

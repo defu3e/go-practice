@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"log"
 	"stageSystem/config"
-	"stageSystem/pkg/constants"
-	"stageSystem/pkg/functions"
+	"stageSystem/internal/constants"
+	"stageSystem/internal/functions"
 	"strings"
 )
 var (

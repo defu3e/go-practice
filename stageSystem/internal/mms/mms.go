@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"stageSystem/pkg/constants"
-	"stageSystem/pkg/functions"
+	"stageSystem/internal/constants"
+	"stageSystem/internal/functions"
 )
 
 func GetMmsStatus () []MMSData {

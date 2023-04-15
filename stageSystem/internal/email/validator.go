@@ -2,8 +2,8 @@ package email
 
 import (
 	"fmt"
-	"stageSystem/pkg/constants"
-	"stageSystem/pkg/functions"
+	"stageSystem/internal/constants"
+	"stageSystem/internal/functions"
 	"strings"
 )
 

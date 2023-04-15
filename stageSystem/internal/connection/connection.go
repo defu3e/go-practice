@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"stageSystem/pkg/constants"
-	"stageSystem/pkg/functions"
-	"stageSystem/pkg/result"
+	"stageSystem/internal/constants"
+	"stageSystem/internal/functions"
+	"stageSystem/internal/result"
 
 	"github.com/gorilla/mux"
 )
